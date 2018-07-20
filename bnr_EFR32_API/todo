@@ -1,0 +1,9 @@
+1. Can nhac:
+    1.1. Them bien timeout cho thoi gian nhan giu nut config, neu nut bi nhan qua
+    10s thi khong nhan trang thai nhan giu cua nut nua, cu the trong truong hop
+    nguoi dung "chot nhan ra" khong muon cho thiet bi thoat mang va muon huy thao 
+    tac do.
+    => Luon cho nguoi dung co kha nang huy mot thao tac nao do.
+2. Bo sung
+	2.1. Chinh lai thong so loai cam bien cho dung, cam bien chuyen dong co ma rieng,
+	cam bien vo cua kinh co ma rieng

@@ -1,0 +1,3495 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>498508865</fileChecksum>
+  <configuration>
+    <name>Normal</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_cmu.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_leuart.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_msc.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_core.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_cryotimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\ustimer\src\ustimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_emu.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_mpu.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_ldma.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\dmadrv\src\dmadrv.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\gpiointerrupt\src\gpiointerrupt.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\rtcdrv\src\rtcdriver.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\sleep\src\sleep.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\tempdrv\src\tempdrv.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\uartdrv\src\uartdrv.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\spidrv\src\spidrv.c</file>
+      <file>$PROJ_DIR$\build\obj\multi-network.o</file>
+      <file>$PROJ_DIR$\build\obj\polling-soc.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_ldma_ch.h</file>
+      <file>$PROJ_DIR$\build\obj\em_core.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\config\dmadrv_config.h</file>
+      <file>$PROJ_DIR$\build\obj\af-trust-center.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_romtable.h</file>
+      <file>$PROJ_DIR$\build\obj\crc.pbi</file>
+      <file>$PROJ_DIR$\build\obj\reporting-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_emu.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\build\obj\em_rmu.pbi</file>
+      <file>$PROJ_DIR$\build\obj\scan-dispatch.o</file>
+      <file>$PROJ_DIR$\build\obj\address-table-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_ldma.h</file>
+      <file>$PROJ_DIR$\build\obj\em_rtcc.pbi</file>
+      <file>$PROJ_DIR$\build\obj\tempdrv.pbi</file>
+      <file>$PROJ_DIR$\build\obj\polling-common.o</file>
+      <file>$PROJ_DIR$\build\obj\form-and-join-node-adapter.pbi</file>
+      <file>$PROJ_DIR$\build\obj\assert-crash-handlers.pbi</file>
+      <file>$PROJ_DIR$\build\obj\crypto-state.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_wdog.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_system.pbi</file>
+      <file>$PROJ_DIR$\build\obj\buzzer-efr32.pbi</file>
+      <file>$PROJ_DIR$\build\obj\diagnostic.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_timer_cc.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_cryotimer.h</file>
+      <file>$PROJ_DIR$\build\obj\af-security-common.pbi</file>
+      <file>$PROJ_DIR$\build\obj\adc-efr32.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_rtcc_ret.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_af_pins.h</file>
+      <file>$PROJ_DIR$\build\obj\af-event.o</file>
+      <file>$PROJ_DIR$\build\obj\service-discovery-soc.o</file>
+      <file>$PROJ_DIR$\build\obj\crc.o</file>
+      <file>$PROJ_DIR$\build\obj\util.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\build\obj\zdo-cli.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\build\obj\counters-ota.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_devinfo.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\build\obj\button.pbi</file>
+      <file>$PROJ_DIR$\build\obj\process-cluster-message.o</file>
+      <file>$PROJ_DIR$\build\obj\callback-stub.pbi</file>
+      <file>$PROJ_DIR$\build\obj\attribute-table.pbi</file>
+      <file>$PROJ_DIR$\build\obj\random.o</file>
+      <file>$PROJ_DIR$\build\obj\end-device-support-cli.o</file>
+      <file>$PROJ_DIR$\build\obj\em_cryotimer.pbi</file>
+      <file>$PROJ_DIR$\build\obj\message.o</file>
+      <file>$PROJ_DIR$\build\obj\mfg-token.o</file>
+      <file>$PROJ_DIR$\build\obj\em_msc.o</file>
+      <file>$PROJ_DIR$\build\obj\security-address-cache.o</file>
+      <file>$PROJ_DIR$\build\obj\micro-common.o</file>
+      <file>$PROJ_DIR$\build\obj\hal-config-gpio.o</file>
+      <file>$PROJ_DIR$\build\obj\adc-efr32.o</file>
+      <file>$PROJ_DIR$\build\obj\plugin-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_wdog_pch.h</file>
+      <file>$PROJ_DIR$\build\obj\led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_wdog.h</file>
+      <file>$PROJ_DIR$\build\obj\em_leuart.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_adc.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_prs.pbi</file>
+      <file>$PROJ_DIR$\build\obj\system_efr32mg1p.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_usart.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_emu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_rtcc.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_dma_descriptor.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\build\obj\coexistence-efr32.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_msc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\build\obj\afv2-bookkeeping.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_ldma.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_core.h</file>
+      <file>$PROJ_DIR$\build\obj\dmadrv.pbi</file>
+      <file>$PROJ_DIR$\build\obj\endian.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_prs_signals.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\bootloader-interface.h</file>
+      <file>$PROJ_DIR$\build\obj\idle-sleep-cli.pbi</file>
+      <file>$PROJ_DIR$\build\obj\form-and-join-afv2.pbi</file>
+      <file>$PROJ_DIR$\build\obj\idle-sleep-soc.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_gpio.pbi</file>
+      <file>$PROJ_DIR$\build\obj\idle-sleep.pbi</file>
+      <file>$PROJ_DIR$\build\obj\call-command-handler.pbi</file>
+      <file>$PROJ_DIR$\build\obj\end-device-support-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_rmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_adc.h</file>
+      <file>$PROJ_DIR$\build\obj\address-table.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\rf4ce-api.h</file>
+      <file>$PROJ_DIR$\build\obj\ember-printf.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\com_device.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\usb\em_usb.h</file>
+      <file>$PROJ_DIR$\build\obj\hal-config.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_leuart.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\efr32\com_device.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p132f256gm48.h</file>
+      <file>$PROJ_DIR$\build\obj\em_mpu.pbi</file>
+      <file>$PROJ_DIR$\build\obj\mem-util.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_bus.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_cmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\micro-types.h</file>
+      <file>$PROJ_DIR$\build\obj\end-device-support.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_gpio_p.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\common\inc\ecode.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\CMSIS\Include\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_rtcc_cc.h</file>
+      <file>$PROJ_DIR$\build\obj\library.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_timer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_cmu.h</file>
+      <file>$PROJ_DIR$\build\obj\LM_PIR_mgm_znet510_callbacks.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\serial\command-interpreter2.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\sleep\inc\sleep.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\CMSIS\Include\core_cmSimd.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\micro-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_crypto.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\include\af.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_prs.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_emu.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_prs_ch.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_msc.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_rmu.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\client-api.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_pcnt.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\config\emlib_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\address-table\address-table.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\rf4ce-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\security.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\dmadrv\inc\dmadrv.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\ustimer\inc\ustimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\child.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_gpcrc.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\compiler\platform-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\config\rtcdrv_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_mpu.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_msc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_letimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_cryotimer.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\zcl-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\spidrv\inc\spidrv.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\af-main.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\bootloader-interface-app.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\em_device.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\endian.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\system_efr32mg1p.h</file>
+      <file>$PROJ_DIR$\build\obj\ext-device.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\com_queue_size.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\serial.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\micro.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_ldma.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_fpueh.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\binding-table.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\bootload.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\system-timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\token.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\micro-features.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\error.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_system.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_leuart.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_acmp.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\micro.h</file>
+      <file>$PROJ_DIR$\build\obj\print.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\ember-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\mfg-token.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\fragmentation\fragmentation.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\counters\counters.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\af-security.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\config\config.h</file>
+      <file>$PROJ_DIR$\build\obj\process-cluster-message.pbi</file>
+      <file>$PROJ_DIR$\build\obj\serial.pbi</file>
+      <file>$PROJ_DIR$\build\obj\network-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\util.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\raw-message.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\button.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\crc.h</file>
+      <file>$PROJ_DIR$\build\obj\random.pbi</file>
+      <file>$PROJ_DIR$\build\obj\token-def.pbi</file>
+      <file>$PROJ_DIR$\build\obj\tempdrv.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\token.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\config\token-phy.h</file>
+      <file>$PROJ_DIR$\build\obj\print-formatter.pbi</file>
+      <file>$PROJ_DIR$\build\obj\network-find.pbi</file>
+      <file>$PROJ_DIR$\build\obj\SEGGER_RTT.pbi</file>
+      <file>$PROJ_DIR$\build\exe\LM_PIR_mgm_znet510.out</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_wdog.h</file>
+      <file>$PROJ_DIR$\build\obj\mpu.pbi</file>
+      <file>$PROJ_DIR$\build\obj\option-cli.pbi</file>
+      <file>$PROJ_DIR$\build\obj\sim-eeprom.pbi</file>
+      <file>$PROJ_DIR$\build\obj\message.pbi</file>
+      <file>$PROJ_DIR$\build\obj\process-global-message.pbi</file>
+      <file>$PROJ_DIR$\build\exe\LM_PIR_mgm_znet510.s37</file>
+      <file>$PROJ_DIR$\build\obj\stack-handler-stub.pbi</file>
+      <file>$PROJ_DIR$\build\obj\util.pbi</file>
+      <file>$PROJ_DIR$\build\obj\zcl-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\error-def.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\config\ember-configuration-defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\source-route-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\security\security.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\diagnostic.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\com-serial.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\zll-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\crypto-state.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\test-harness\test-harness.h</file>
+      <file>$PROJ_DIR$\build\obj\polling-common.pbi</file>
+      <file>$PROJ_DIR$\build\obj\micro-common.pbi</file>
+      <file>$PROJ_DIR$\build\obj\sleep.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\rtcdrv\inc\rtcdriver.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\gpiointerrupt\inc\gpiointerrupt.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\zigbee-framework\zigbee-device-common.h</file>
+      <file>$PROJ_DIR$\build\obj\service-discovery-soc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_dmareq.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\hal-config\zigbee-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\security-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\partner-link-key-exchange\partner-link-key-exchange.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\common\library.h</file>
+      <file>$PROJ_DIR$\build\obj\mfg-token.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\bootloader-interface-standalone.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\security-profile-data.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\adc\adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\tempdrv\inc\tempdrv.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\bootloader-eeprom.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\diagnostic.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\token-manufacturing.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\multi-network.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\config\tempdrv_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\event.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_rtcc.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\security-config.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_ramfunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\gp\gp-token-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\trust-center.h</file>
+      <file>$PROJ_DIR$\build\obj\security-address-cache.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\com.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\print.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\config\uartdrv_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\include\af-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\buzzer\buzzer.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\led.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_af_ports.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\reporting\reporting.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\symbol-timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\micro-features.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\ember-debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\zll-api.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\nvic-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_adc.h</file>
+      <file>$PROJ_DIR$\build\obj\em_cmu.pbi</file>
+      <file>$PROJ_DIR$\build\obj\network-find.o</file>
+      <file>$PROJ_DIR$\build\obj\token.o</file>
+      <file>$PROJ_DIR$\build\obj\ember-base-configuration.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\zigbee-framework\zigbee-device-library.h</file>
+      <file>$PROJ_DIR$\build\obj\faults-v7m.o</file>
+      <file>$PROJ_DIR$\build\obj\uartdrv.pbi</file>
+      <file>$PROJ_DIR$\build\obj\security-cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\cbke-crypto-engine.h</file>
+      <file>$PROJ_DIR$\build\obj\service-discovery-common.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\ember.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\gp-types.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\ota-storage-common\ota-storage.h</file>
+      <file>$PROJ_DIR$\build\obj\counters-soc.o</file>
+      <file>$PROJ_DIR$\build\obj\em_cryotimer.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\attribute-table.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\service-discovery.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\config\spidrv_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Include\efr32mg1p_idac.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\attribute-storage.h</file>
+      <file>$PROJ_DIR$\build\obj\ustimer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\library.h</file>
+      <file>$PROJ_DIR$\build\obj\af-node.o</file>
+      <file>$PROJ_DIR$\build\obj\rtcdriver.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\network-formation.h</file>
+      <file>$PROJ_DIR$\build\obj\spidrv.pbi</file>
+      <file>$PROJ_DIR$\build\obj\cli.o</file>
+      <file>$PROJ_DIR$\build\obj\button.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\common\form-and-join.h</file>
+      <file>$PROJ_DIR$\build\obj\callback-stub.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\af-event.h</file>
+      <file>$PROJ_DIR$\build\obj\ext-device.o</file>
+      <file>$PROJ_DIR$\build\obj\end-device-support.o</file>
+      <file>$PROJ_DIR$\build\obj\zigbee-device-library.o</file>
+      <file>$PROJ_DIR$\build\obj\call-command-handler.o</file>
+      <file>$PROJ_DIR$\build\obj\core-cli.o</file>
+      <file>$PROJ_DIR$\build\obj\serial.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\time-server\time-server.h</file>
+      <file>$PROJ_DIR$\build\obj\sleep-efm32.o</file>
+      <file>$PROJ_DIR$\build\obj\mpu.o</file>
+      <file>$PROJ_DIR$\build\obj\network-cli.o</file>
+      <file>$PROJ_DIR$\build\obj\time-util.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\key-establishment\key-establishment.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\ias-zone-client\ias-zone-client.h</file>
+      <file>$PROJ_DIR$\build\obj\diagnostic.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\simple-metering-server\simple-metering-server.h</file>
+      <file>$PROJ_DIR$\build\obj\client-api.o</file>
+      <file>$PROJ_DIR$\build\obj\endian.o</file>
+      <file>$PROJ_DIR$\build\obj\simple-main.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\smart-energy-registration\smart-energy-registration.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\trust-center-keepalive\trust-center-keepalive.h</file>
+      <file>$PROJ_DIR$\build\obj\isr-stubs.o</file>
+      <file>$PROJ_DIR$\build\obj\token-def.o</file>
+      <file>$PROJ_DIR$\build\obj\print.o</file>
+      <file>$PROJ_DIR$\build\obj\attribute-storage.o</file>
+      <file>$PROJ_DIR$\build\obj\debug-jtag-efr32.o</file>
+      <file>$PROJ_DIR$\build\obj\gpiointerrupt.pbi</file>
+      <file>$PROJ_DIR$\build\obj\buzzer-efr32.o</file>
+      <file>$PROJ_DIR$\build\obj\cstartup-common.o</file>
+      <file>$PROJ_DIR$\build\obj\crypto-state.o</file>
+      <file>$PROJ_DIR$\build\obj\ember-configuration.o</file>
+      <file>$PROJ_DIR$\build\obj\command-interpreter2.o</file>
+      <file>$PROJ_DIR$\build\obj\stack-handler-stub.o</file>
+      <file>$PROJ_DIR$\build\obj\security-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\zll\zll-token-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\pta.h</file>
+      <file>$PROJ_DIR$\build\obj\attribute-table.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_usart.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\micro-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\efr32\nvic-config-series1-config1.h</file>
+      <file>$PROJ_DIR$\build\obj\micro.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\config\ustimer_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\stack-info.h</file>
+      <file>$PROJ_DIR$\build\obj\polling-soc.pbi</file>
+      <file>$PROJ_DIR$\build\obj\multi-network.pbi</file>
+      <file>$PROJ_DIR$\build\obj\scan-dispatch.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\compiler\iar.h</file>
+      <file>$PROJ_DIR$\build\obj\plugin-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emdrv\uartdrv\inc\uartdrv.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_prs.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\message.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\compiler\interrupts-efm32.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\regs.h</file>
+      <file>$PROJ_DIR$\build\obj\service-discovery-common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\config\token-stack.h</file>
+      <file>$PROJ_DIR$\build\obj\reporting-cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\random.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Source\system_efr32mg1p.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_rmu.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\hal-config-gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_prs.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_system.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_rtcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\src\em_wdog.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\reporting\reporting-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\simple-main\simple-main.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\end-device-support\end-device-move.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\hal-config.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\network-find\network-find.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\counters\counters-ota.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\ember-printf.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\end-device-support\end-device-support-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\common\form-and-join.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin-soc\idle-sleep\idle-sleep.c</file>
+      <file>$PROJ_DIR$\LM_PIR_mgm_znet510_callbacks.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\address-table\address-table-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\end-device-support\end-device-support.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\form-and-join\form-and-join-afv2.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\common\form-and-join-node-adapter.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin-soc\idle-sleep\idle-sleep-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin-soc\idle-sleep\idle-sleep-soc.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\debug-jtag\debug-jtag-efr32.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\coexistence\coexistence-efr32.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\counters\counters-soc.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\end-device-support\polling-common.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\counters\counters-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\scan-dispatch\scan-dispatch.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\reporting\reporting.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\end-device-support\polling-soc.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\debug\rtt\SEGGER_RTT.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\address-table\address-table.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\faults-v7m.s79</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\adc\adc-efr32.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\isr-stubs.s79</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\config\ember-configuration.c</file>
+      <file>$PROJ_DIR$\callback-stub.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\serial\command-interpreter2.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\led.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\common\library.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\af-security-common.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\message.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\af-main-common.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\af-event.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\button.c</file>
+      <file>$PROJ_DIR$\call-command-handler.c</file>
+      <file>$PROJ_DIR$\stack-handler-stub.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\af-trust-center.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\attribute-size.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\sim-eeprom1\sim-eeprom.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\attribute-storage.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\attribute-table.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\crypto-state.c</file>
+      <file>$PROJ_DIR$\afv2-bookkeeping.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\af-node.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\cstartup-common.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\buzzer\buzzer-efr32.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\diagnostic.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\antenna-stub\antenna-stub.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\af-main-soc.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\assert-crash-handlers.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\client-api.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\endian.c</file>
+      <file>$PROJ_DIR$\cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\sleep-efm32.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\mfg-token.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\multi-network.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\micro.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\plugin-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\random.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\process-cluster-message.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\serial.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\network-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\print-formatter.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\security-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\mem-util.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\service-discovery-soc.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\process-global-message.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\service-discovery-common.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\print.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\ember-base-configuration.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\mpu.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\token-def.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\core-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\micro-common.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\option-cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\token.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\security\security-address-cache.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\ext-device.c</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\cortexm\efm32\com.c</file>
+      <file>$PROJ_DIR$\build\obj\attribute-storage.pbi</file>
+      <file>$PROJ_DIR$\build\obj\sleep.pbi</file>
+      <file>$PROJ_DIR$\build\obj\LM_PIR_mgm_znet510_callbacks.o</file>
+      <file>$PROJ_DIR$\build\obj\af-node.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\zdo-cli.c</file>
+      <file>$PROJ_DIR$\build\obj\reporting.o</file>
+      <file>$PROJ_DIR$\build\obj\option-cli.o</file>
+      <file>$PROJ_DIR$\build\obj\com.pbi</file>
+      <file>$PROJ_DIR$\build\obj\form-and-join-node-adapter.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\zigbee-framework\zigbee-device-common.c</file>
+      <file>$PROJ_DIR$\build\obj\hal-config.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\zcl-cli.c</file>
+      <file>$PROJ_DIR$\build\obj\SEGGER_RTT.o</file>
+      <file>$PROJ_DIR$\build\obj\idle-sleep-soc.o</file>
+      <file>$PROJ_DIR$\build\obj\af-event.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\zigbee-framework\zigbee-device-library.c</file>
+      <file>$PROJ_DIR$\build\obj\af-main-soc.pbi</file>
+      <file>$PROJ_DIR$\build\obj\led.o</file>
+      <file>$PROJ_DIR$\build\obj\zigbee-device-common.o</file>
+      <file>$PROJ_DIR$\build\obj\library.o</file>
+      <file>$PROJ_DIR$\build\obj\af-main-common.pbi</file>
+      <file>$PROJ_DIR$\build\obj\process-global-message.o</file>
+      <file>$PROJ_DIR$\build\obj\em_rtcc.o</file>
+      <file>$PROJ_DIR$\build\obj\ember-base-configuration.pbi</file>
+      <file>$PROJ_DIR$\build\obj\attribute-size.pbi</file>
+      <file>$PROJ_DIR$\build\obj\ember-configuration.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\time-util.c</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\util.c</file>
+      <file>$PROJ_DIR$\build\obj\end-device-move.pbi</file>
+      <file>$PROJ_DIR$\build\obj\sim-eeprom.o</file>
+      <file>$PROJ_DIR$\build\obj\zcl-cli.o</file>
+      <file>$PROJ_DIR$\build\obj\ember-printf.o</file>
+      <file>$PROJ_DIR$\build\obj\cstartup-common.pbi</file>
+      <file>$PROJ_DIR$\build\obj\debug-jtag-efr32.pbi</file>
+      <file>$PROJ_DIR$\build\obj\antenna-stub.pbi</file>
+      <file>$PROJ_DIR$\build\obj\form-and-join-afv2.o</file>
+      <file>$PROJ_DIR$\build\obj\form-and-join.o</file>
+      <file>$PROJ_DIR$\build\obj\com.o</file>
+      <file>$PROJ_DIR$\build\obj\coexistence-efr32.o</file>
+      <file>$PROJ_DIR$\build\obj\counters-cli.o</file>
+      <file>$PROJ_DIR$\build\obj\end-device-move.o</file>
+      <file>$PROJ_DIR$\build\obj\idle-sleep-cli.o</file>
+      <file>$PROJ_DIR$\build\obj\client-api.pbi</file>
+      <file>$PROJ_DIR$\build\obj\counters-soc.pbi</file>
+      <file>$PROJ_DIR$\build\obj\idle-sleep.o</file>
+      <file>$PROJ_DIR$\build\obj\mem-util.o</file>
+      <file>$PROJ_DIR$\build\obj\micro.o</file>
+      <file>$PROJ_DIR$\build\obj\core-cli.pbi</file>
+      <file>$PROJ_DIR$\build\obj\form-and-join.pbi</file>
+      <file>$PROJ_DIR$\build\obj\command-interpreter2.pbi</file>
+      <file>$PROJ_DIR$\build\obj\cli.pbi</file>
+      <file>$PROJ_DIR$\build\obj\hal-config-gpio.pbi</file>
+      <file>$PROJ_DIR$\build\obj\counters-ota.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_system.o</file>
+      <file>$PROJ_DIR$\build\obj\em_core.o</file>
+      <file>$PROJ_DIR$\build\obj\counters-cli.pbi</file>
+      <file>$PROJ_DIR$\build\obj\em_prs.o</file>
+      <file>$PROJ_DIR$\build\obj\em_usart.o</file>
+      <file>$PROJ_DIR$\build\obj\address-table-cli.o</file>
+      <file>$PROJ_DIR$\build\obj\em_ldma.o</file>
+      <file>$PROJ_DIR$\build\obj\print-formatter.o</file>
+      <file>$PROJ_DIR$\build\obj\address-table.o</file>
+      <file>$PROJ_DIR$\build\obj\af-main-soc.o</file>
+      <file>$PROJ_DIR$\build\obj\af-trust-center.o</file>
+      <file>$PROJ_DIR$\build\obj\em_gpio.o</file>
+      <file>$PROJ_DIR$\build\obj\em_leuart.o</file>
+      <file>$PROJ_DIR$\build\obj\antenna-stub.o</file>
+      <file>$PROJ_DIR$\build\obj\em_cmu.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\common.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\sim-eeprom\sim-eeprom-cortexm3.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\common\common.h</file>
+      <file>$PROJ_DIR$\build\obj\em_adc.o</file>
+      <file>$PROJ_DIR$\build\obj\em_wdog.o</file>
+      <file>$PROJ_DIR$\call-command-handler.h</file>
+      <file>$PROJ_DIR$\LM_PIR_mgm_znet510_endpoint_config.h</file>
+      <file>$PROJ_DIR$\build\obj\em_mpu.o</file>
+      <file>$PROJ_DIR$\build\obj\af-security-common.o</file>
+      <file>$PROJ_DIR$\build\obj\af-main-common.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\hal-config\hal-config-types.h</file>
+      <file>$PROJ_DIR$\cluster-id.h</file>
+      <file>$PROJ_DIR$\build\obj\system_efr32mg1p.o</file>
+      <file>$PROJ_DIR$\build\obj\em_timer.o</file>
+      <file>$PROJ_DIR$\build\obj\assert-crash-handlers.o</file>
+      <file>$PROJ_DIR$\build\obj\attribute-size.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\counters\counters-ota.h</file>
+      <file>$PROJ_DIR$\att-storage.h</file>
+      <file>$PROJ_DIR$\afv2-mfg-token.h</file>
+      <file>$PROJ_DIR$\build\obj\afv2-bookkeeping.o</file>
+      <file>$PROJ_DIR$\build\obj\em_emu.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\emlib\inc\em_chip.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\common\ebl.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\com_vcom.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\counters\counters-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\framework\debug-gen.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\sim-eeprom\sim-eeprom-size.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin-soc\idle-sleep\idle-sleep.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\bootloader\fib-bootloader.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\framework\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\framework\debug-message-type-gen.h</file>
+      <file>$PROJ_DIR$\build\obj\em_rmu.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\internal-storage.h</file>
+      <file>$PROJ_DIR$\print-cluster.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\memmap-fat.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\cstartup-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\zdo-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\core-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\plugin-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\com_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\debug-jtag\debug-channel.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\ember-printf.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\debug\rtt\SEGGER_RTT_Conf.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\bootloader-size.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\network-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\counters\counters.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\sim-eeprom\sim-eeprom.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\debug\rtt\SEGGER_RTT.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\common\bootloader-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\test-harness\test-harness-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\option-cli.h</file>
+      <file>$PROJ_DIR$\afv2-bookkeeping.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\zigbee-device-stack.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\reset-def.h</file>
+      <file>$PROJ_DIR$\enums.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\antenna\antenna.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\byte-utilities.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\rf4ce\rf4ce-token-config.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\aes-mmo.h</file>
+      <file>$PROJ_DIR$\afv2-token.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\mpu-config.h</file>
+      <file>$PROJ_DIR$\LM_PIR_mgm_znet510.h</file>
+      <file>$PROJ_DIR$\af-structs.h</file>
+      <file>$PROJ_DIR$\attribute-id.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\packet-buffer.h</file>
+      <file>$PROJ_DIR$\build\obj\dmadrv.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\serial.h</file>
+      <file>$PROJ_DIR$\attribute-type.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\em2xx-reset-defs.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\mpu.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\uchar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\micro-common.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\memmap-tables.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\usb\usbconfig.h</file>
+      <file>$PROJ_DIR$\debug-printing.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\custom-cli.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\include\ember-static-struct.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\reporting\reporting-tokens.h</file>
+      <file>$PROJ_DIR$\command-id.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\time-util.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\config.h</file>
+      <file>$PROJ_DIR$\LM_PIR_mgm_znet510_board.h</file>
+      <file>$PROJ_DIR$\LM_PIR_mgm_znet510_tokens.h</file>
+      <file>$PROJ_DIR$\build\obj\spidrv.o</file>
+      <file>$PROJ_DIR$\build\obj\zigbee-device-library.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\common\bootloader-ccm.h</file>
+      <file>$PROJ_DIR$\build\obj\zdo-cli.pbi</file>
+      <file>$PROJ_DIR$\attribute-size.h</file>
+      <file>$PROJ_DIR$\build\obj\reporting.pbi</file>
+      <file>$PROJ_DIR$\build\obj\time-util.pbi</file>
+      <file>$PROJ_DIR$\build\obj\sleep-efm32.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\mpu-config.h</file>
+      <file>$PROJ_DIR$\client-command-macro.h</file>
+      <file>$PROJ_DIR$\callback.h</file>
+      <file>$PROJ_DIR$\build\obj\rtcdriver.o</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\tokens.h</file>
+      <file>$PROJ_DIR$\build\obj\gpiointerrupt.o</file>
+      <file>$PROJ_DIR$\build\obj\LM_PIR_mgm_znet510.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\flash.h</file>
+      <file>$PROJ_DIR$\build\obj\zigbee-device-common.pbi</file>
+      <file>$PROJ_DIR$\build\obj\simple-main.pbi</file>
+      <file>$PROJ_DIR$\build\obj\ustimer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\build\obj\token.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\build\obj\uartdrv.o</file>
+      <file>$PROJ_DIR$\..\..\..\platform\middleware\glib\glib\glib_color.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\ext-device.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\middleware\glib\dmd\dmd.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\sleep-efm32.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\scan-dispatch\scan-dispatch.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\common\form-and-join-adapter.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\radio\rail_lib\chip\efr32\rf\common\cortex\pa.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\glib\graphics.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\radio\rail_lib\chip\efr32\rf\common\cortex\pti.h</file>
+      <file>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\end-device-support\end-device-support.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\middleware\glib\glib\glib.h</file>
+      <file>$PROJ_DIR$\..\..\..\platform\middleware\glib\em_types.h</file>
+      <file>$PROJ_DIR$\build\obj\ustimer.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_msc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\adc-efr32.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\address-table-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_cryotimer.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_rmu.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_wdog.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_usart.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\af-event.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\af-node.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\af-trust-center.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\assert-crash-handlers.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_timer.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_prs.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_emu.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\system_efr32mg1p.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_core.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_ldma.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\address-table.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\af-main-soc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\afv2-bookkeeping.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\antenna-stub.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\attribute-size.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\ext-device.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_leuart.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_mpu.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_system.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\af-main-common.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\af-security-common.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_cmu.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\em_rtcc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\ember-printf.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\core-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\command-interpreter2.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\debug-jtag-efr32.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\counters-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\end-device-move.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\end-device-support-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\endian.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\client-api.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\counters-ota.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\end-device-support.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\coexistence-efr32.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\ember-base-configuration.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\callback-stub.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\buzzer-efr32.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\crypto-state.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\cstartup-common.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\diagnostic.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\ember-configuration.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\attribute-table.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\button.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\call-command-handler.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\counters-soc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\com.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\crc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\attribute-storage.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\security-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\sim-eeprom.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\sleep-efm32.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\reporting.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\serial.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\process-global-message.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\random.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\token-def.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\simple-main.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\util.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\zcl-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\security-address-cache.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\SEGGER_RTT.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\reporting-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\service-discovery-soc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\scan-dispatch.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\service-discovery-common.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\time-util.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\token.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\stack-handler-stub.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\zdo-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\process-cluster-message.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\zigbee-device-common.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\zigbee-device-library.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\hal-config.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\form-and-join.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\multi-network.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\option-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\polling-common.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\hal-config-gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\print-formatter.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\print.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\form-and-join-node-adapter.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\micro-common.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\idle-sleep-soc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\plugin-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\LM_PIR_mgm_znet510_callbacks.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\mem-util.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\polling-soc.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\network-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\form-and-join-afv2.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\library.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\micro.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\network-find.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\led.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\idle-sleep-cli.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\idle-sleep.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\message.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\mfg-token.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\mpu.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\uartdrv.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\dmadrv.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\rtcdriver.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\sleep.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\gpiointerrupt.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\spidrv.__cstat.et</file>
+      <file>$PROJ_DIR$\build\obj\tempdrv.__cstat.et</file>
+      <file>$PROJ_DIR$\build\lst\isr-stubs.lst</file>
+      <file>$PROJ_DIR$\build\lst\faults-v7m.lst</file>
+      <file>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\compiler\asm.h</file>
+      <file>$PROJ_DIR$\build\lst\adc-efr32.lst</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_cmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 286</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 536</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 689</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 148 124 245 297 191 182 77 277 91 158 175 144 257 305 27 138 112 129 116 143 119 30 127 22 46 166 107 50 87 88 165 173 153 123 134 20 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_leuart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 534</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 683</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 160 51 140 26 122 158 164 142 117 131 297 113 56 265 91 130 106 274 181 21 47 193 86 60 97 61 31 58 173 134 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 129 112 165 123 192</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_msc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 659</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 87 165 46 173 127 107 158 91 119 30 22 166 50 129 113 266 175 124 144 182 257 148 305 77 27 245 277 138 112 297 191 123 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 145</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_core.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 523</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 675</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127 107 46 87 88 165 20 119 30 22 166 50 129 113 175 124 144 182 257 148 305 77 27 245 277 138 112 297 158 149 173 91 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_cryotimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 301</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 662</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 129 22 113 119 30 166 165 91 127 46 107 87 88 123 175 124 144 182 257 148 305 77 27 245 277 138 112 297 173 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 167</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 533</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 684</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 144 305 175 257 27 138 112 129 124 182 148 77 245 277 113 297 173 123 119 30 127 22 46 166 107 50 87 88 165 91 158 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 159</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 217</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emdrv\ustimer\src\ustimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 307</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 641</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 658</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182 277 77 124 148 245 113 297 143 175 144 257 305 27 138 112 129 173 20 246 119 30 127 22 46 166 107 50 87 88 165 123 358 134 94 156 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 91 158 128</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_emu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 557</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 673</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265 46 113 56 165 87 88 91 127 107 134 119 30 22 166 50 129 20 31 58 123 175 124 144 182 257 148 305 77 27 245 277 138 297 143 191 158 112 173 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 122 153</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 540</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 670</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 182 277 124 148 245 113 297 134 91 175 144 257 305 27 138 112 129 119 30 127 22 46 166 107 50 87 88 165 158 116 173 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 123 285 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_mpu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 544</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 685</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142 131 113 164 117 297 56 265 140 160 26 79 51 122 173 91 130 106 274 181 21 47 193 86 60 97 61 31 58 158 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 129 112 165 163</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_ldma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 528</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 676</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193 274 130 21 60 61 31 113 91 158 106 181 47 86 97 58 190 20 134 173 164 140 142 160 117 26 131 79 51 297 56 265 122 116 123 94 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 129 112 165 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emdrv\dmadrv\src\dmadrv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 603</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 769</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emdrv\gpiointerrupt\src\gpiointerrupt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 343</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 636</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 772</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106 97 47 58 181 86 20 158 130 274 21 193 60 61 31 113 242 91 164 140 142 160 117 26 131 79 51 297 56 265 122 173 94 123 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 129 112 165 159</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emdrv\rtcdrv\src\rtcdriver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 310</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 634</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 770</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86 154 181 173 58 106 47 97 91 94 137 113 31 130 274 21 193 60 61 134 241 190 56 265 129 164 140 142 160 117 26 131 79 51 297 122 158 162 123 20 263 112 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 247 159 180 128 621 547</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emdrv\sleep\src\sleep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 470</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 771</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 182 277 124 148 245 113 297 143 175 144 257 305 27 138 112 129 173 94 232 119 30 127 22 46 166 107 50 87 88 165 91 158 146 137 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 190 20 123</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emdrv\tempdrv\src\tempdrv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 774</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164 117 297 56 265 128 142 131 113 255 140 160 26 79 51 122 154 143 130 106 274 181 21 47 193 86 60 97 61 31 58 191 180 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 129 112 165 173 123 190 91 261</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emdrv\uartdrv\src\uartdrv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 645</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 768</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158 30 159 119 166 173 22 50 129 165 91 112 113 155 127 46 107 87 88 354 128 175 124 144 182 257 148 305 77 27 245 277 138 297 20 365 143 94 242 190 154 31 56 265 58 192 134 272 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 122 123 24 180 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emdrv\spidrv\src\spidrv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 312</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 623</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 773</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107 127 123 91 46 87 88 165 173 354 113 119 30 22 166 50 129 24 134 297 159 169 112 175 124 144 182 257 148 305 77 27 245 277 138 241 94 155 190 154 31 56 265 58 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 122 128 304 180 158 20 35 162 247</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\build\exe\LM_PIR_mgm_znet510.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 224</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\Device\SiliconLabs\EFR32MG1P\Source\system_efr32mg1p.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 549</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 674</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 245 124 58 148 182 77 277 113 297 31 175 144 257 305 27 138 56 265 119 30 127 22 46 166 107 50 87 88 165 173 129 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 122</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_rmu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 568</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 663</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166 91 119 30 165 22 50 129 113 173 143 127 46 107 87 88 175 124 144 182 257 148 305 77 27 245 277 138 112 297 20 123 158 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 146</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 550</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 671</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305 144 175 257 27 138 112 129 124 182 148 77 245 277 113 297 173 158 119 30 127 22 46 166 107 50 87 88 165 91 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 246</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\hal-config-gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 520</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 747</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 173 140 254 194 610 298 371 160 79 51 122 91 172 264 111 297 368 113 56 265 129 164 142 117 131 247 174 98 547 196 599 134 267 280 116 180 281 161 190 31 58 130 106 274 181 21 47 193 86 60 97 61 187 20 352 275 373 256 279 125 355 163 158 128 149 354 615 235 228 114 24 186 259 555 616 189 369 112 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 179 621 593 207 208 276 604 185 212 258 606 591 159 284 123 356 270 229 188 151 620 282 192 272 213 351 597 592 171 363 365 234 177 155 35 612 608 118 197 595 635 273 622 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_prs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 525</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 672</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 138 27 112 129 257 144 305 124 182 148 77 245 277 113 297 173 119 30 127 22 46 166 107 50 87 88 165 158 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 366</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 522</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 686</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131 113 142 164 117 297 56 265 140 160 26 79 51 122 129 116 91 130 106 274 181 21 47 193 86 60 97 61 31 58 158 173 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 112 165 191 190</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 526</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 665</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 87 165 46 127 107 123 119 30 22 166 50 129 113 91 173 175 124 144 182 257 148 305 77 27 245 277 138 112 297 134 158 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 354</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_rtcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 491</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 690</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 160 51 140 26 122 164 142 117 131 297 113 56 265 91 130 106 274 181 21 47 193 86 60 97 61 31 58 173 123 158 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 129 112 165 263</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\emlib\src\em_wdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 541</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 664</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148 113 124 245 297 182 77 277 91 175 144 257 305 27 138 112 129 119 30 127 22 46 166 107 50 87 88 165 173 123 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 31 56 265 58 122 218</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\reporting\reporting-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 372</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 731</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112 189 129 123 178 274 279 371 592 113 193 621 554 130 21 60 61 91 262 352 355 610 270 159 272 116 635 620 271 632 168 106 181 47 86 97 173 599 367 373 595 278 296 188 600 542 617 147 122 369 164 140 142 160 117 26 131 79 51 297 264 594 596 283 228 268 275 256 125 547 282 192 128 190 118 259 622 136 363 280 273 618 601 605 633 548 613 570 180 281 368 161 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 187 20 311 157 184 308 229 151 179 254 174 172 98 194 163 158 149 114 111 134 24 197 171 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\simple-main\simple-main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 640</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 335</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 726</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86 91 98 181 548 229 179 106 47 97 184 158 173 134 259 620 189 112 129 113 130 274 21 193 60 61 618 311 174 111 171 256 141 122 369 164 140 142 160 117 26 131 79 51 297 363 262 605 570 157 308 188 151 254 172 194 163 128 149 114 24 197 273 280 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 601 633 613 136 599 264 594 367 596 283 228 268 621 352 275 373 279 125 355 610 547 270 159 282 192 272 123 118 371 595 635 622 632 187 20 296 178 271 600 554 542 617 592 147 168 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\end-device-support\end-device-move.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 497</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 509</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 696</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77 276 173 618 154 182 277 591 621 177 186 548 124 148 245 297 602 620 363 262 605 570 368 113 56 265 129 175 144 257 305 27 138 590 615 258 159 354 128 91 158 180 171 256 280 273 601 633 613 136 116 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 196 152 260 201 298 247 207 185 606 599 234 612 259 296 178 188 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 94 359 206 183 282 109 235 593 208 604 212 284 123 356 365 155 35 608 595 635 622 141 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\hal-config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 479</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 742</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158 113 86 58 354 91 197 180 181 373 213 592 576 190 106 47 97 187 352 279 355 173 615 235 228 128 597 134 116 281 161 31 130 274 21 193 60 61 20 275 256 125 163 149 599 177 118 171 280 654 297 368 56 265 129 164 140 142 160 117 26 131 79 51 122 247 254 174 172 98 194 610 547 196 298 264 234 612 259 351 560 143 270 189 369 112 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 179 621 593 207 208 276 604 185 212 258 606 591 159 284 123 356 229 188 151 620 365 155 35 608 371 555 267 616 363 114 282 111 192 272 24 186 595 635 273 622 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\network-find\network-find.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 761</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257 129 35 605 368 173 595 363 113 175 27 138 262 570 297 56 265 144 305 282 235 593 591 365 155 618 548 154 124 182 148 77 245 277 94 206 604 159 356 91 259 635 280 273 601 633 613 136 116 180 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 359 183 109 208 212 284 123 247 196 608 620 622 632 315 296 178 188 271 600 554 542 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 602 152 590 260 201 615 298 207 276 185 258 606 621 599 354 234 177 128 158 612 186 171 256 141 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\counters\counters-ota.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 521</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 701</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 283 268 58 136 113 50 165 282 273 180 190 22 264 275 547 118 371 633 119 30 166 173 594 125 597 189 553 280 601 613 116 281 161 31 127 46 107 87 88 596 228 256 91 192 128 259 539 363 262 618 605 548 570 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 599 367 621 352 373 279 355 610 270 159 272 123 213 351 592 252 582 620 296 178 188 271 600 554 542 632 617 147 168 122 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 311 157 184 308 229 151 179 254 174 172 98 194 163 158 149 114 111 134 24 197 555 267 616 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\ember-printf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 500</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 691</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 252 173 277 352 610 182 355 213 77 621 279 371 351 124 148 245 297 373 234 612 129 592 602 368 113 56 265 175 144 257 305 27 138 91 235 275 256 125 599 354 196 178 578 116 180 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 94 615 298 264 179 254 174 172 98 194 163 158 128 159 177 118 259 597 189 188 280 270 122 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 229 151 620 228 247 593 207 208 276 604 185 212 258 606 591 284 123 356 365 155 35 608 197 555 267 616 363 149 547 114 282 111 192 134 272 24 186 595 635 273 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\end-device-support\end-device-support-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 697</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 152 130 61 354 600 113 21 273 296 617 189 112 129 274 193 91 201 185 281 599 173 306 188 542 147 106 181 47 86 97 196 260 298 247 207 606 234 612 259 280 363 136 620 178 271 554 632 592 168 122 369 164 140 142 160 117 26 131 79 51 297 602 590 615 276 258 591 159 621 177 128 158 180 186 171 256 141 537 655 262 618 601 605 633 548 613 570 116 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 359 206 183 282 109 235 593 208 604 212 284 123 356 365 155 35 608 595 635 622 543 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252 205 302</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\common\form-and-join.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 517</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 505</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 743</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106 98 354 97 179 47 187 158 651 181 86 174 599 173 188 189 112 129 113 130 274 21 193 60 61 20 228 254 172 194 163 128 234 612 371 213 351 592 252 178 122 91 369 164 140 142 160 117 26 131 79 51 297 229 151 620 621 352 275 373 256 279 125 355 610 159 177 180 118 259 597 196 280 315 116 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 615 235 298 264 247 593 207 208 276 604 185 212 258 606 591 284 123 356 365 155 35 608 197 555 267 616 363 149 547 270 114 282 111 192 134 272 24 186 595 635 273 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin-soc\idle-sleep\idle-sleep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 513</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 764</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190 180 273 22 173 599 620 136 113 58 50 165 367 633 119 30 166 373 141 280 601 613 116 281 161 31 127 46 107 87 88 91 262 621 352 279 355 610 270 159 272 123 371 171 256 564 363 618 605 548 570 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 264 594 596 283 228 268 275 125 547 282 192 128 118 259 317 296 178 188 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 311 157 184 308 229 151 179 254 174 172 98 194 163 158 149 114 111 134 24 197 595 635 622 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252 543</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\LM_PIR_mgm_znet510_callbacks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 471</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 754</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 605 201 599 363 144 91 185 281 173 123 129 262 570 180 305 152 354 273 56 265 618 548 116 161 175 257 27 138 196 260 298 247 207 606 234 612 259 280 143 642 31 58 601 633 613 136 297 368 154 124 182 148 77 245 277 602 590 615 276 258 591 159 621 177 128 158 186 620 171 256 141 609 112 296 178 188 271 600 554 542 632 617 592 147 168 122 189 369 190 119 30 127 22 46 166 107 50 87 88 165 94 359 206 183 282 109 235 593 208 604 212 284 356 365 155 35 608 595 635 622 644 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\address-table\address-table-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 661</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 596 228 245 124 91 192 548 148 297 371 259 618 173 154 182 77 277 256 128 363 262 605 570 368 113 56 265 129 175 144 257 305 27 138 264 594 283 268 275 125 547 282 190 118 597 189 136 280 273 601 633 613 116 180 281 161 31 58 119 30 127 22 46 166 107 50 87 88 165 599 367 621 352 373 279 355 610 270 159 272 123 213 351 592 252 170 150 620 296 178 188 271 600 554 542 632 617 147 168 122 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 311 157 184 308 229 151 179 254 174 172 98 194 163 158 149 114 111 134 24 197 555 267 616 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 620 599 264 296 196 229 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\end-device-support\end-device-support.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 319</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 702</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\form-and-join\form-and-join-afv2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 504</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 758</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 168 86 173 595 271 181 620 632 106 47 97 282 235 593 591 365 155 178 554 592 189 112 129 113 130 274 21 193 60 61 94 206 604 159 356 91 259 635 296 188 600 542 617 147 122 369 164 140 142 160 117 26 131 79 51 297 359 183 109 208 212 284 123 247 196 608 622 315 363 280 262 273 618 601 605 633 548 613 570 136 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 602 152 590 260 201 615 298 207 276 185 258 606 621 599 354 234 177 128 158 612 186 171 256 141 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\common\form-and-join-node-adapter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 477</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 750</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 308 123 190 106 188 159 97 151 608 47 187 284 196 597 180 113 58 181 86 157 212 213 592 315 116 281 161 31 130 274 21 193 60 61 20 311 184 229 620 268 208 247 297 259 171 296 173 368 56 265 129 164 140 142 160 117 26 131 79 51 122 91 594 367 596 262 283 228 593 604 591 356 365 155 35 371 351 280 651 189 369 112 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 359 602 206 152 183 590 282 260 109 201 615 235 298 599 264 207 276 185 258 606 621 354 234 177 128 158 612 186 555 267 616 363 179 352 254 275 174 373 172 256 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 595 635 273 622 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin-soc\idle-sleep\idle-sleep-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 510</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 763</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 617 26 163 296 122 140 600 369 160 79 51 308 188 151 254 194 114 113 273 542 147 91 129 164 142 117 131 297 20 157 172 158 128 149 173 197 280 620 178 271 554 632 592 168 189 112 130 106 274 181 21 47 193 86 60 97 61 187 311 184 229 179 174 98 111 134 259 171 256 564 363 262 618 601 605 633 548 613 570 136 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 599 264 594 367 596 283 228 268 621 352 275 373 279 125 355 610 547 270 159 282 192 272 123 118 371 595 635 622 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin-soc\idle-sleep\idle-sleep-soc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 482</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 752</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 554 113 21 620 130 60 61 602 178 592 189 112 129 274 193 276 591 173 621 177 186 141 271 632 168 106 181 47 86 97 590 615 258 159 354 128 91 158 180 171 256 564 296 188 600 542 617 147 122 369 164 140 142 160 117 26 131 79 51 297 196 152 260 201 298 247 207 185 606 281 599 234 612 259 273 280 317 363 262 618 601 605 633 548 613 570 136 116 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 359 206 183 282 109 235 593 208 604 212 284 123 356 365 155 35 608 595 635 622 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252 543</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\debug-jtag\debug-jtag-efr32.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 502</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 342</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 694</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259 602 179 562 173 148 297 192 555 124 245 593 159 267 154 182 77 277 604 591 621 264 128 123 577 189 112 129 113 175 144 257 305 27 138 91 208 212 599 298 282 190 616 180 134 584 122 369 119 30 127 22 46 166 107 50 87 88 165 94 207 276 185 258 606 281 284 356 272 116 280 558 143 368 161 31 56 265 58 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 247 352 254 275 174 373 172 256 98 279 125 355 194 163 610 158 149 547 270 615 235 228 114 111 24 186 213 351 597 592 252 363 196 354 229 188 151 620 365 234 177 155 35 612 608 118 197 371 595 635 273 622 171 566 567 191 579</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\coexistence\coexistence-efr32.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 703</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 173 190 106 47 187 596 180 113 58 181 86 594 283 174 111 91 196 116 281 161 31 130 274 21 193 60 61 20 367 262 228 179 98 158 134 371 267 242 280 297 368 56 265 129 164 140 142 160 117 26 131 79 51 122 311 157 184 308 229 188 151 620 254 172 194 163 128 149 114 24 259 555 616 296 189 369 112 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 359 602 206 152 183 590 282 260 109 201 615 235 298 599 264 621 352 275 373 256 279 125 355 610 547 270 159 192 272 123 118 197 213 351 597 592 171 363 268 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 273 622 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\counters\counters-soc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 512</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 300</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 714</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 297 234 280 144 260 612 613 56 265 129 305 298 207 259 601 368 175 257 27 138 196 247 606 553 273 633 136 173 154 124 182 148 77 245 277 91 152 201 185 281 599 354 539 363 262 618 605 548 570 116 180 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 602 590 615 276 258 591 159 621 177 128 158 186 620 171 256 582 296 178 188 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 94 359 206 183 282 109 235 593 208 604 212 284 123 356 365 155 35 608 595 635 622 141 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\end-device-support\polling-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 746</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 617 26 373 296 122 140 600 369 160 79 51 173 599 367 188 542 147 91 129 113 164 142 117 131 297 262 621 352 279 355 610 270 159 272 123 116 371 213 351 592 252 273 620 178 271 554 632 168 189 112 130 106 274 181 21 47 193 86 60 97 61 264 594 596 283 228 268 275 256 125 547 282 192 128 190 118 259 597 655 363 280 618 601 605 633 548 613 570 136 180 281 368 161 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 187 20 311 157 184 308 229 151 179 254 174 172 98 194 163 158 149 114 111 134 24 197 555 267 616 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\counters\counters-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 524</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 508</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 695</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 283 268 281 601 46 165 282 87 88 264 275 547 190 118 371 280 613 116 161 31 113 127 107 173 594 125 597 189 553 273 633 136 180 58 119 30 22 166 50 596 228 256 91 192 128 259 539 363 262 618 605 548 570 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 599 367 621 352 373 279 355 610 270 159 272 123 213 351 592 252 582 561 620 296 178 188 271 600 554 542 632 617 147 168 122 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 311 157 184 308 229 151 179 254 174 172 98 194 163 158 149 114 111 134 24 197 555 267 616 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\scan-dispatch\scan-dispatch.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 362</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 733</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 116 113 158 280 127 258 91 613 161 107 615 171 601 281 46 87 88 165 173 590 159 354 128 180 256 273 633 136 190 58 119 30 22 166 50 602 276 591 621 177 186 620 363 262 618 605 548 570 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 196 152 260 201 298 247 207 185 606 599 234 612 259 650 296 178 188 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 94 359 206 183 282 109 235 593 208 604 212 284 123 356 365 155 35 608 595 635 622 141 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\reporting\reporting.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 628</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 474</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 721</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136 229 179 554 273 173 181 98 91 633 86 184 158 134 259 280 601 613 297 368 113 56 265 106 47 97 187 311 620 174 111 306 363 262 618 605 548 570 116 180 281 161 190 31 58 130 274 21 193 60 61 20 157 308 188 151 254 172 194 163 128 149 114 24 197 555 267 616 302 537 278 296 178 271 600 542 632 617 592 147 168 122 189 369 129 112 164 140 142 160 117 26 131 79 51 599 264 594 367 596 283 228 268 621 352 275 373 256 279 125 355 610 547 270 159 282 192 272 123 118 371 213 351 597 252 205 141 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171 543</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\end-device-support\polling-soc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 360</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 756</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265 129 158 570 56 305 258 91 262 297 113 144 615 363 605 368 175 257 27 138 173 590 159 354 128 180 618 548 154 124 182 148 77 245 277 602 276 591 621 177 186 213 351 592 252 273 280 601 633 613 136 116 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 196 152 260 201 298 247 207 185 606 599 234 612 259 597 189 655 620 296 178 188 271 600 554 542 632 617 147 168 122 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 94 359 206 183 282 109 235 593 208 604 212 284 123 356 365 155 35 608 555 267 616 141 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 256 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 595 635 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\debug\rtt\SEGGER_RTT.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 481</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 730</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 281 187 129 257 175 27 138 116 161 112 113 144 305 180 154 124 182 148 77 245 277 297 363 173 368 190 119 30 127 22 46 166 107 50 87 88 165 20 579 122 189 91 369 31 56 265 58 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 584 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\plugin\address-table\address-table.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 677</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 113 20 136 165 58 172 158 273 180 190 22 633 119 30 166 157 128 149 173 197 616 280 601 613 116 281 161 31 127 46 107 87 88 308 188 151 254 194 163 114 24 555 267 363 262 618 605 548 570 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 187 311 184 229 620 179 174 98 111 134 91 259 150 296 178 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 599 264 594 367 596 283 228 268 621 352 275 373 256 279 125 355 610 547 270 159 282 192 272 123 118 371 213 351 597 252 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 620 599 264 296 196 229 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\faults-v7m.s79</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 291 776</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 777</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\adc\adc-efr32.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 778 75</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 660</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 257 173 175 27 138 129 285 31 144 305 228 139 297 368 190 58 154 124 182 148 77 245 277 91 188 153 116 180 281 56 265 119 30 127 22 46 166 107 50 87 88 165 355 254 134 123 122 189 369 161 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 94 356 363 187 20 284 149 158</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 188 228 355 139 284 356 149 254 153 134 158 123 285</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\isr-stubs.s79</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 338 775</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 777 284 356 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\stack\config\ember-configuration.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 494</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 347</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 710</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297 148 268 296 124 245 262 621 177 186 173 154 182 77 277 159 356 617 174 620 615 368 113 56 265 129 175 144 257 305 27 138 367 228 591 600 179 98 354 128 91 158 180 171 256 141 116 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 594 596 283 284 123 188 542 147 254 172 599 234 612 259 273 280 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 311 157 184 308 229 151 606 178 271 554 632 592 168 352 275 373 279 247 196 365 155 35 608 595 635 622 363 94 359 602 206 152 183 590 282 260 109 201 235 298 264 125 355 194 163 610 149 618 601 605 633 548 613 570 136 593 207 208 276 604 185 212 258 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\callback-stub.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 705</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 91 87 98 618 281 46 229 179 548 116 161 31 113 127 107 184 158 173 134 259 620 363 262 605 570 180 190 58 119 30 22 166 50 187 311 174 111 171 256 280 273 601 633 613 136 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 20 157 308 188 151 254 172 194 163 128 149 114 24 197 296 178 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 599 264 594 367 596 283 228 268 621 352 275 373 279 125 355 610 547 270 159 282 192 272 123 118 371 595 635 622 141 165 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\serial\command-interpreter2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 518</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 348</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 693</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 128 274 189 112 129 197 113 193 311 149 173 130 21 60 61 184 229 172 158 178 106 181 47 86 97 187 157 308 188 254 194 163 114 24 213 351 592 252 296 122 91 369 164 140 142 160 117 26 131 79 51 297 594 367 596 262 283 235 179 174 98 111 134 259 597 280 136 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 196 359 602 206 152 183 590 282 260 109 201 615 298 599 264 621 352 275 373 256 279 125 355 610 547 270 159 192 272 123 118 371 555 267 616 363 151 620 228 268 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 273 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 486</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 762</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305 113 173 125 163 122 31 144 158 356 369 175 257 27 138 621 91 190 58 154 124 182 148 77 245 277 297 134 189 56 265 119 30 127 22 46 166 107 50 87 88 165 355 547 179 247 276 116 180 281 368 161 129 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 194 591 610 159 284 363 94 606 128 123 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\common\library.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 488</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 759</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201 182 593 173 154 277 77 152 264 591 365 155 124 148 245 297 196 260 298 35 595 178 368 113 56 265 129 175 144 257 305 27 138 91 602 590 615 599 604 159 356 259 635 296 116 180 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 94 359 206 183 282 109 235 268 208 212 284 123 247 608 620 622 280 539 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 594 311 367 157 596 184 262 308 283 229 188 151 228 207 276 185 258 606 621 354 234 177 128 158 612 186 273 171 256 363 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 592 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\af-security-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 688</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173 311 122 296 140 617 26 187 259 600 369 160 79 51 620 174 111 91 613 188 542 147 129 113 164 142 117 131 297 184 229 179 98 158 134 136 253 178 271 554 632 592 168 189 112 130 106 274 181 21 47 193 86 60 97 61 20 157 308 151 254 172 194 163 128 149 114 24 197 555 267 616 200 248 363 280 262 273 618 601 605 633 548 570 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 599 264 594 367 596 283 228 268 621 352 275 373 256 279 125 355 610 547 270 159 282 192 272 123 118 371 213 351 597 252 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 620 599 264 296 196 229 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\message.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 765</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 168 122 620 271 369 160 51 359 247 632 140 26 109 208 297 178 554 592 91 129 113 164 142 117 131 183 212 284 123 196 159 608 622 296 188 600 542 617 147 189 112 130 106 274 181 21 47 193 86 60 97 61 94 173 206 282 235 593 604 591 356 365 155 35 259 595 635 205 363 280 262 273 618 601 605 633 548 613 570 136 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 602 152 590 260 201 615 298 207 276 185 258 606 621 599 354 234 177 128 158 612 186 171 256 141 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\af-main-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 489</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 687</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265 129 618 56 305 236 297 113 144 94 359 212 170 368 175 257 27 138 173 109 284 123 196 159 608 273 280 633 299 154 124 182 148 77 245 277 183 208 247 548 296 136 302 620 243 116 180 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 206 282 235 593 604 591 356 91 365 155 35 259 171 256 363 262 605 570 294 178 303 306 205 271 200 250 249 589 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 602 152 590 260 201 615 298 599 264 207 276 185 258 606 621 354 234 177 128 158 612 186 595 635 622 601 613 141 543 187 20 594 311 367 157 596 184 308 283 229 188 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 592 252 600 554 542 632 617 147 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 296 196 229 620 599 264 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 294 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\af-event.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 483</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 666</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97 136 213 106 621 252 47 279 123 371 351 237 181 86 273 262 352 355 610 270 159 272 116 592 317 189 112 129 113 130 274 21 193 60 61 94 173 633 599 367 373 141 236 122 91 369 164 140 142 160 117 26 131 79 51 297 280 601 613 264 594 596 283 228 268 275 256 125 547 282 192 128 190 118 259 597 543 363 188 303 306 180 281 368 161 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 618 605 548 570 311 157 184 308 229 151 620 179 254 174 172 98 194 163 158 149 114 111 134 24 197 555 267 616 187 20 296 178 271 600 554 542 632 617 147 168 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 141 620 599 264 296 196 229 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\button.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 712</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 359 555 161 107 116 31 113 127 173 109 163 24 267 281 46 87 88 165 183 254 194 114 178 180 190 58 119 30 22 166 50 206 282 235 172 158 128 149 197 616 296 159 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 91 196 602 152 590 260 201 615 298 599 264 179 174 98 111 134 259 280 242 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 594 311 367 157 596 184 262 308 283 229 188 151 620 228 621 352 275 373 256 279 125 355 610 547 270 192 272 123 118 371 213 351 597 592 252 363 268 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 273 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\call-command-handler.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 713</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 262 276 173 122 140 268 613 591 621 177 186 369 160 79 51 280 620 600 91 129 113 164 142 117 131 297 367 228 141 601 258 159 354 128 158 180 171 256 296 617 189 112 130 106 274 181 21 47 193 86 60 97 61 594 596 283 273 633 136 247 207 185 606 281 599 234 612 259 205 542 116 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 187 20 311 157 184 308 229 188 151 363 618 605 548 570 593 208 604 212 284 123 356 196 365 155 35 608 595 635 622 632 94 359 602 206 152 183 590 282 260 109 201 615 235 298 264 178 271 554 592 147 168 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\stack-handler-stub.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 349</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 737</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 91 87 98 601 281 46 165 229 179 280 613 116 161 31 113 127 107 184 158 173 134 259 620 273 633 136 180 190 58 119 30 22 166 50 187 311 174 111 171 256 363 262 618 605 548 570 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 20 157 308 188 151 254 172 194 163 128 149 114 24 197 296 178 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 599 264 594 367 596 283 228 268 621 352 275 373 279 125 355 610 547 270 159 282 192 272 123 118 371 595 635 622 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\af-trust-center.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 668</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166 605 165 363 190 119 30 212 262 570 180 113 58 22 50 183 284 123 196 159 608 622 632 230 618 548 116 281 161 31 127 46 107 87 88 359 109 208 247 297 620 200 280 273 601 633 613 136 173 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 94 206 282 235 593 604 591 356 91 365 155 35 259 595 635 554 170 306 296 178 188 271 600 542 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 602 152 590 260 201 615 298 207 276 185 258 606 621 599 354 234 177 128 158 612 186 171 256 141 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252 543</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 620 599 264 296 196 229 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\attribute-size.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 493</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 681</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87 88 46 165 127 107 189 113 56 265 190 119 30 22 166 50 605 627 122 91 369 31 58 154 175 124 144 182 257 148 305 77 27 245 277 138 297 94 173 116 180 281 368 161 129 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 363 187 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 605 627</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\sim-eeprom1\sim-eeprom.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 498</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 719</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 599 129 91 142 131 367 228 185 281 173 625 113 164 117 297 262 354 280 122 369 140 160 26 79 51 594 596 283 247 207 606 234 612 259 351 622 586 296 583 371 189 112 130 106 274 181 21 47 193 86 60 97 61 187 20 311 157 184 308 229 188 151 620 276 258 591 159 621 177 128 158 180 186 597 635 171 256 638 178 116 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 196 359 602 206 152 183 590 282 260 109 201 615 235 298 264 268 593 208 604 212 284 123 356 365 155 35 608 213 267 273 619 363 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 555 595 616 592 252 538 563 611 559 571 585 565</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\attribute-storage.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 469</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 717</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 620 599 264 296 196 229 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\attribute-table.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 711</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 271 160 369 51 111 618 168 79 122 620 174 613 632 140 26 187 311 173 259 141 363 178 554 592 129 113 164 142 117 131 297 184 229 179 98 158 134 170 306 296 188 600 542 617 147 189 112 130 106 274 181 21 47 193 86 60 97 61 20 157 308 151 254 172 194 163 128 149 114 24 197 555 267 616 205 302 280 262 273 601 605 633 548 570 136 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 599 264 594 367 596 283 228 268 621 352 275 373 256 279 125 355 610 547 270 159 282 192 272 123 118 371 213 351 597 252 196 537 94 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171 543</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 537 141 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 620 599 264 296 196 229 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\crc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 716</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297 129 117 369 164 122 161 112 142 131 91 113 140 160 26 79 51 173 208 189 130 106 274 181 21 47 193 86 60 97 61 116 180 281 368 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 187 20 363 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\crypto-state.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 346</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 707</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 206 265 129 356 613 56 305 173 280 297 113 144 94 159 259 635 601 368 175 257 27 138 604 205 273 633 136 154 124 182 148 77 245 277 282 235 593 591 365 155 35 595 302 363 262 618 605 548 570 116 180 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 359 183 109 208 212 284 123 247 196 608 620 622 632 236 141 306 296 178 188 271 600 554 542 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 602 152 590 260 201 615 298 207 276 185 258 606 621 599 354 234 177 128 158 612 186 171 256 543 537 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\afv2-bookkeeping.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 679</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131 570 91 98 129 142 229 179 113 164 117 297 262 184 158 173 134 259 620 141 122 369 140 160 26 79 51 363 605 311 174 111 171 256 189 112 130 106 274 181 21 47 193 86 60 97 61 618 548 157 308 188 151 254 172 194 163 128 149 114 24 197 273 280 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 601 633 613 136 594 367 596 283 228 268 621 352 275 373 279 125 355 610 547 270 159 282 192 272 123 118 371 595 635 622 632 187 20 599 264 296 178 271 600 554 542 617 592 147 168 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 620 599 264 141 296 196 229 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\security\af-node.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 472</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 667</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297 91 542 113 117 98 129 164 229 179 188 147 142 131 184 158 173 134 259 296 600 617 122 369 140 160 26 79 51 187 311 620 174 111 613 200 178 271 554 632 592 168 189 112 130 106 274 181 21 47 193 86 60 97 61 20 157 308 151 254 172 194 163 128 149 114 24 197 555 267 616 363 280 262 273 618 601 605 633 548 570 136 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 599 264 594 367 596 283 228 268 621 352 275 373 256 279 125 355 610 547 270 159 282 192 272 123 118 371 213 351 597 252 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 620 599 264 296 196 229 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\cstartup-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 501</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 345</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 708</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 26 140 586 196 180 113 160 79 51 173 565 171 179 201 116 281 161 112 129 164 142 117 131 297 585 188 151 233 572 368 130 106 274 181 21 47 193 86 60 97 61 122 591 620 607 569 98 146 284 189 369 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 187 20 606 159 123 356 611 559 571 363 563 125 229 228 165 94 598 355 194 163 610 158 128 149 631 619 625 580 615 235 298 599 264 252 256</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\buzzer\buzzer-efr32.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 706</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 86 163 58 157 24 180 181 190 106 47 97 187 308 188 151 254 194 114 259 116 281 161 31 130 274 21 193 60 61 20 311 184 229 620 172 158 128 149 173 267 296 297 368 56 265 129 164 140 142 160 117 26 131 79 51 122 91 594 367 596 262 283 228 179 174 98 111 134 371 555 616 280 189 369 112 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 196 359 602 206 152 183 590 282 260 109 201 615 235 298 599 264 621 352 275 373 256 279 125 355 610 547 270 159 192 272 123 118 197 213 351 597 592 171 363 268 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 273 622 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\diagnostic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 331</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 709</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 359 94 351 161 107 116 31 113 127 173 109 213 252 233 281 46 87 88 165 183 151 276 591 621 177 186 592 180 190 58 119 30 22 166 50 206 282 258 159 354 128 91 158 179 631 296 270 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 196 602 152 590 260 201 615 620 247 207 185 606 599 234 612 259 597 189 280 178 607 122 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 594 311 367 157 596 184 262 308 283 229 188 228 268 593 208 604 212 284 123 356 365 155 35 608 555 267 616 363 235 298 264 352 254 275 174 373 172 256 98 279 125 355 194 163 610 149 547 114 111 192 134 272 24 118 197 371 595 635 273 622 171 598</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\antenna-stub\antenna-stub.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 503</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 680</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 130 61 228 172 158 281 113 21 128 149 247 116 161 31 274 193 20 254 194 163 297 259 180 190 58 106 181 47 86 97 187 179 174 98 173 196 159 608 267 368 56 265 129 164 140 142 160 117 26 131 79 51 122 91 229 188 151 620 621 352 275 373 256 279 125 355 610 547 365 155 35 371 555 616 280 189 369 112 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 615 235 298 599 264 593 207 208 276 604 185 212 258 606 591 284 123 356 354 234 177 612 118 197 213 351 597 592 171 363 270 114 282 111 192 134 272 24 186 595 635 273 622 252</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 196 229 620 599 264 615 188 228 235 151 298 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 282 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\af-main-soc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 485</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 678</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147 86 151 254 113 188 181 308 194 114 303 542 106 47 97 163 24 555 267 290 236 296 600 617 189 112 129 130 274 21 193 60 61 20 157 172 158 128 149 173 197 616 141 620 136 231 205 198 233 178 271 554 632 592 168 122 91 369 164 140 142 160 117 26 131 79 51 297 187 311 184 229 179 174 98 111 134 259 613 543 306 243 199 315 170 200 249 589 363 280 262 273 618 601 605 633 548 570 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 599 264 594 367 596 283 228 268 621 352 275 373 256 279 125 355 610 547 270 159 282 192 272 123 118 371 213 351 597 252 165 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 620 599 264 296 196 229 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\assert-crash-handlers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 669</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 234 173 277 182 201 612 77 152 264 207 129 259 124 148 245 297 196 260 298 247 606 270 368 113 56 265 175 144 257 305 27 138 91 602 590 615 599 185 281 354 597 189 631 296 233 116 180 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 94 359 206 183 282 109 235 276 258 591 159 621 177 128 158 186 213 351 592 252 280 178 607 122 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 594 311 367 157 596 184 262 308 283 229 188 151 620 228 268 593 208 604 212 284 123 356 365 155 35 608 555 267 616 179 363 352 254 275 174 373 172 256 98 279 125 355 194 163 610 149 547 114 111 192 134 272 24 118 197 371 595 635 273 622 171 598</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 363 122 113 116 129 31 265 58 56 112 190 297 91 180 154 173 119 130 88 165 61 138 175 164 30 106 124 140 127 274 144 142 22 181 182 160 46 21 257 117 166 47 148 26 107 193 305 131 50 86 77 79 87 60 27 97 245 277 51 369 281 187 368 94 20 161 296 196 229 620 599 264 615 188 228 235 151 298 594 359 311 602 367 206 157 152 268 596 183 184 590 262 282 308 260 283 109 201 280 179 606 125 355 194 163 158 591 610 159 123 128 284 356 149 621 547 247 352 593 254 207 275 208 174 276 373 604 354 270 365 192 134 272 155 35 24 114 612 608 234 111 118 177 172 185</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\client-api.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 511</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 700</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 359 166 165 247 597 189 190 119 30 180 113 58 22 50 554 109 208 297 147 116 281 161 31 127 46 107 87 88 173 178 592 183 212 284 123 196 159 608 537 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 91 618 620 271 632 168 206 282 235 593 604 591 356 365 155 35 259 213 351 252 273 205 122 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 141 306 296 188 600 542 617 602 152 590 260 201 615 298 207 276 185 258 606 621 599 354 234 177 128 158 612 186 555 267 616 613 363 94 302 280 262 601 605 633 548 570 136 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 256 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 595 635 622 171 543</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\endian.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 334</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 698</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 130 61 173 21 274 193 297 368 129 113 106 181 47 86 97 235 174 116 180 281 161 112 164 140 142 160 117 26 131 79 51 122 94 196 189 91 369 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 615 298 599 264 363 187 20 229 188 151 620 228</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 519</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 699</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173 605 166 604 363 190 119 30 262 570 180 113 58 22 50 94 206 159 356 91 259 635 618 548 116 281 161 31 127 46 107 87 88 165 282 235 593 591 365 155 35 595 280 273 601 633 613 136 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 359 183 109 208 212 284 123 247 196 608 620 622 632 614 296 178 188 271 600 554 542 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 602 152 590 260 201 615 298 207 276 185 258 606 621 599 354 234 177 128 158 612 186 171 256 141 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\sleep-efm32.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 630</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 325</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 720</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 79 173 160 51 234 140 26 20 128 143 297 368 113 56 265 129 164 142 117 131 649 270 116 180 281 161 190 31 58 130 106 274 181 21 47 193 86 60 97 61 187 194 610 177 354 24 179 159 122 189 369 112 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 125 355 163 158 149 365 155 123 363 165 94 606 591 284 356 114 282 111 192 134 272 35 612 608 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\mfg-token.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 766</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 138 27 369 113 257 173 122 31 144 305 197 91 190 58 154 124 182 148 77 245 277 297 228 188 189 56 265 119 30 127 22 46 166 107 50 87 88 165 585 565 638 259 116 180 281 368 161 129 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 611 559 571 620 599 264 363 94 586 619 625 555</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\multi-network.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 361</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 744</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 122 91 98 600 369 160 51 229 179 296 617 140 26 184 158 173 134 259 620 188 542 147 129 113 164 142 117 131 297 187 311 174 111 171 256 178 271 554 632 592 168 189 112 130 106 274 181 21 47 193 86 60 97 61 20 157 308 151 254 172 194 163 128 149 114 24 197 273 280 363 262 618 601 605 633 548 613 570 136 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 599 264 594 367 596 283 228 268 621 352 275 373 279 125 355 610 547 270 159 282 192 272 123 118 371 595 635 622 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\micro.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 357</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 515</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 760</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 130 60 128 178 113 21 173 123 256 297 366 255 189 112 129 274 193 187 158 547 602 282 371 259 620 91 261 134 242 591 106 181 47 86 97 590 615 599 275 125 192 190 118 622 657 143 241 188 586 654 122 369 164 140 142 160 117 26 131 79 51 20 621 196 152 260 201 298 264 352 373 279 355 610 149 270 159 272 116 595 635 619 625 558 94 167 296 280 233 638 653 652 649 180 281 368 161 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 191 359 206 183 109 235 179 254 174 172 98 194 163 284 114 111 24 197 273 171 646 363 162 247 594 311 367 157 596 184 262 308 283 229 151 228 268 593 207 208 276 604 185 212 258 606 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 592 252 611 559 571 585 565 656 232 648</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\plugin-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 364</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 753</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179 229 168 86 271 181 98 91 620 632 106 47 97 184 158 173 134 259 622 178 554 592 189 112 129 113 130 274 21 193 60 61 187 311 174 111 575 296 188 600 542 617 147 122 369 164 140 142 160 117 26 131 79 51 297 20 157 308 151 254 172 194 163 128 149 114 24 197 595 635 136 363 280 262 273 618 601 605 633 548 613 570 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 599 264 594 367 596 283 228 268 621 352 275 373 256 279 125 355 610 547 270 159 282 192 272 123 118 371 171 543 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\random.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 724</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 47 129 106 97 189 181 86 130 274 21 193 60 61 373 122 91 369 161 112 164 140 142 160 117 26 131 79 51 297 94 173 116 180 281 368 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 363 187 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\process-cluster-message.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 739</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 633 148 297 111 124 245 620 174 613 205 273 136 173 154 182 77 277 187 311 259 141 363 280 601 368 113 56 265 129 175 144 257 305 27 138 184 229 179 98 158 134 302 262 618 605 548 570 116 180 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 20 157 308 188 151 254 172 194 163 128 149 114 24 197 555 267 616 170 306 296 178 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 599 264 594 367 596 283 228 268 621 352 275 373 256 279 125 355 610 547 270 159 282 192 272 123 118 371 213 351 597 252 196 537 94 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171 543</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\serial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 323</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 722</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106 97 560 47 187 276 591 173 270 181 86 258 159 356 91 259 602 189 112 129 113 130 274 21 193 60 61 20 228 247 207 185 606 281 365 155 35 196 178 578 122 369 164 140 142 160 117 26 131 79 51 297 229 188 151 620 593 208 604 212 284 123 608 197 555 267 616 280 576 599 116 180 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 615 235 298 264 179 621 352 254 275 174 373 172 256 98 279 125 355 194 163 610 158 354 234 177 128 612 118 371 213 351 597 592 252 363 149 547 114 282 111 192 134 272 24 186 595 635 273 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\network-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 327</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 757</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305 570 56 265 129 173 259 262 297 113 144 184 158 134 363 605 368 175 257 27 138 229 179 98 91 243 618 548 154 124 182 148 77 245 277 187 311 620 174 111 613 205 280 273 601 633 136 116 180 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 20 157 308 188 151 254 172 194 163 128 149 114 24 197 555 267 616 170 581 296 178 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 599 264 594 367 596 283 228 268 621 352 275 373 256 279 125 355 610 547 270 159 282 192 272 123 118 371 213 351 597 252 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\print-formatter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 529</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 748</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 601 129 257 91 368 98 113 175 27 138 229 179 280 613 297 56 265 144 305 184 158 173 134 259 620 273 633 136 154 124 182 148 77 245 277 187 311 174 111 171 256 363 262 618 605 548 570 116 180 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 165 20 157 308 188 151 254 172 194 163 128 149 114 24 197 296 178 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 599 264 594 367 596 283 228 268 621 352 275 373 279 125 355 610 547 270 159 282 192 272 123 118 371 595 635 622 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\security-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 350</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 293</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 718</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 247 106 97 542 47 196 606 280 141 188 147 181 86 260 298 207 234 612 129 259 543 170 306 296 600 617 189 112 113 130 274 21 193 60 61 91 152 201 185 281 599 354 173 273 136 618 620 178 271 554 632 592 168 122 369 164 140 142 160 117 26 131 79 51 297 602 590 615 276 258 591 159 621 177 128 158 180 186 171 256 303 248 200 205 302 363 262 601 605 633 548 613 570 116 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 359 206 183 282 109 235 593 208 604 212 284 123 356 365 155 35 608 595 635 622 537 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\mem-util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 514</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 755</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297 368 267 173 117 91 113 164 256 247 555 56 265 129 142 131 188 151 275 125 280 140 160 26 79 51 122 229 620 621 352 373 279 355 610 196 159 608 197 616 116 180 281 161 190 31 58 130 106 274 181 21 47 193 86 60 97 61 187 20 228 179 254 174 172 98 194 163 158 128 356 365 155 35 259 189 369 112 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 615 235 298 599 264 593 207 208 276 604 185 212 258 606 591 284 123 354 234 177 612 118 371 213 351 597 592 252 363 149 547 270 114 282 111 192 134 272 24 186 595 635 273 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\service-discovery-soc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 732</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 91 592 193 98 178 189 112 129 274 229 179 554 130 21 60 61 184 158 173 134 259 620 271 632 168 106 181 47 86 97 187 311 174 111 171 256 296 188 600 542 617 147 122 369 164 140 142 160 117 26 131 79 51 297 20 157 308 151 254 172 194 163 128 149 114 24 197 273 280 290 363 262 618 601 605 633 548 613 570 136 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 599 264 594 367 596 283 228 268 621 352 275 373 279 125 355 610 547 270 159 282 192 272 123 118 371 595 635 622 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\process-global-message.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 490</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 723</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 373 592 131 205 178 91 129 142 554 113 164 117 297 173 599 367 336 620 271 632 168 122 369 140 160 26 79 51 262 621 352 279 355 610 270 159 272 123 116 371 213 351 252 273 330 237 296 188 600 542 617 147 189 112 130 106 274 181 21 47 193 86 60 97 61 264 594 596 283 228 268 275 256 125 547 282 192 128 190 118 259 597 141 537 329 337 332 363 280 618 601 605 633 548 613 570 136 180 281 368 161 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 187 20 311 157 184 308 229 151 179 254 174 172 98 194 163 158 149 114 111 134 24 197 555 267 616 302 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171 306 543</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\service-discovery-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 370</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 295</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 734</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91 206 297 356 542 113 117 173 129 164 94 159 259 635 188 147 142 131 604 296 600 617 122 369 140 160 26 79 51 282 235 593 591 365 155 35 595 303 620 178 271 554 632 592 168 189 112 130 106 274 181 21 47 193 86 60 97 61 359 183 109 208 212 284 123 247 196 608 622 243 363 280 262 273 618 601 605 633 548 613 570 136 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 602 152 590 260 201 615 298 207 276 185 258 606 621 599 354 234 177 128 158 612 186 171 256 141 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\print.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 749</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 113 136 165 91 58 98 273 180 190 22 229 179 633 119 30 166 184 158 173 134 259 620 280 601 613 116 281 161 31 127 46 107 87 88 187 311 174 111 171 256 363 262 618 605 548 570 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 20 157 308 188 151 254 172 194 163 128 149 114 24 197 296 178 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 599 264 594 367 596 283 228 268 621 352 275 373 279 125 355 610 547 270 159 282 192 272 123 118 371 595 635 622 141 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\ember-base-configuration.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 492</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 289</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 704</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173 117 276 273 368 297 113 164 262 591 621 177 186 625 56 265 129 142 131 367 228 371 229 140 160 26 79 51 122 91 594 596 283 258 159 354 128 158 180 259 586 296 116 281 161 190 31 58 130 106 274 181 21 47 193 86 60 97 61 187 20 311 157 184 308 188 151 620 247 207 185 606 599 234 612 638 280 583 189 369 112 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 196 359 602 206 152 183 590 282 260 109 201 615 235 298 264 268 593 208 604 212 284 123 356 365 155 35 608 595 635 622 252 256 619 363 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 555 213 351 267 597 616 592 171 538 563 611 559 571 585 565</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\mpu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 326</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 767</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165 46 87 88 173 127 107 94 179 189 113 56 265 190 119 30 22 166 50 631 163 122 91 369 31 58 154 175 124 144 182 257 148 305 77 27 245 277 138 297 158 356 607 116 180 281 368 161 129 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 606 159 284 363 187 20 598 125 355 194 591 610 128 123 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\generic\token-def.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 339</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 725</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 281 113 190 635 371 116 161 56 265 50 165 206 180 119 30 166 282 188 151 296 297 173 368 127 46 107 87 88 94 359 183 109 229 620 595 622 122 189 91 369 31 58 154 175 124 144 182 257 148 305 77 27 245 277 138 196 602 152 590 260 201 228 268 273 363 129 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 594 311 367 157 596 184 262 308 283 615 235 298 599 264 213 351 267 597 616 592</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\core-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 516</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 322</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 692</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185 112 189 129 91 296 274 281 173 582 617 113 193 201 599 581 306 600 130 21 60 61 152 354 273 200 588 141 188 542 147 106 181 47 86 97 196 260 298 247 207 606 234 612 259 280 543 136 574 248 250 618 620 178 271 554 632 592 168 122 369 164 140 142 160 117 26 131 79 51 297 602 590 615 276 258 591 159 621 177 128 158 180 186 171 256 170 308 294 614 575 573 587 561 317 205 302 363 262 601 605 633 548 613 570 116 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 359 206 183 282 109 235 593 208 604 212 284 123 356 365 155 35 608 595 635 622 537 187 20 264 594 311 367 157 596 184 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\micro-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 239</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 751</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122 129 161 131 621 112 142 355 369 164 117 297 134 91 113 140 160 26 79 51 173 158 159 254 189 130 106 274 181 21 47 193 86 60 97 61 123 356 547 218 146 188 610 156 116 180 281 368 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 284 128 363 187 20 228 149 358</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\option-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 475</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 745</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 247 50 570 165 58 262 180 190 22 196 606 280 363 605 119 30 166 260 298 207 234 612 129 259 543 136 302 618 548 116 281 161 31 127 46 107 87 88 91 152 201 185 599 354 173 273 620 170 205 601 633 613 297 368 56 265 154 175 124 144 182 257 148 305 77 27 245 277 138 602 590 615 276 258 591 159 621 177 128 158 186 171 256 141 200 303 306 296 178 188 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 94 359 206 183 282 109 235 593 208 604 212 284 123 356 365 155 35 608 595 635 622 537 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\token.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 643</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 288</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 736</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159 369 51 354 160 79 122 91 596 173 128 180 267 625 259 140 26 594 283 258 158 635 280 371 129 113 164 142 117 131 297 367 262 228 276 591 621 177 186 213 586 296 583 189 112 130 106 274 181 21 47 193 86 60 97 61 187 20 311 157 184 308 229 188 151 620 247 207 185 606 281 599 234 612 622 171 256 638 178 116 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 196 359 602 206 152 183 590 282 260 109 201 615 235 298 264 268 593 208 604 212 284 123 356 365 155 35 608 351 597 273 619 363 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 555 595 616 592 252 538 563 611 559 571 585 565</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\security\security-address-cache.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 269</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 729</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193 113 311 189 112 129 274 20 620 247 597 130 21 60 61 184 229 268 208 297 280 106 181 47 86 97 187 157 308 188 151 212 284 123 196 159 608 296 231 122 91 369 164 140 142 160 117 26 131 79 51 173 594 367 596 262 283 228 593 604 591 356 365 155 35 259 213 351 592 252 178 116 180 281 368 161 190 31 56 265 58 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 359 602 206 152 183 590 282 260 109 201 615 235 298 599 264 207 276 185 258 606 621 354 234 177 128 158 612 186 555 267 616 363 179 352 254 275 174 373 172 256 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 595 635 273 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\micro\cortexm3\efm32\ext-device.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 318</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 682</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305 123 129 207 189 112 113 144 91 235 247 606 134 175 257 27 138 185 281 599 270 159 272 116 280 154 124 182 148 77 245 277 297 173 276 258 591 621 259 635 252 256 196 647 122 369 190 119 30 127 22 46 166 107 50 87 88 165 94 615 298 264 593 208 604 212 284 356 282 192 128 371 620 595 622 188 242 366 180 368 161 31 56 265 58 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 229 151 228 179 352 254 275 174 373 172 98 279 125 355 194 163 610 158 149 547 114 111 24 186 273 363 354 365 234 177 155 35 612 608 118 197 555 213 351 267 597 616 592 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\platform\base\hal\plugin\serial\cortexm\efm32\com.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 476</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 506</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 715</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87 88 597 560 281 46 165 354 116 161 31 113 127 107 94 173 615 276 591 621 177 118 371 280 578 180 190 58 119 30 22 166 50 258 159 128 91 158 259 196 270 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 235 247 207 185 606 599 234 612 213 351 592 252 188 189 576 122 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 229 298 264 593 208 604 212 284 123 356 365 155 35 608 197 555 267 616 363 151 620 228 179 352 254 275 174 373 172 256 98 279 125 355 194 163 610 149 547 114 282 111 192 134 272 24 186 595 635 273 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\zdo-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 626</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 738</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 281 618 46 165 173 302 87 88 594 125 280 548 116 161 31 113 127 107 264 283 268 275 547 282 190 118 371 543 290 363 262 605 570 180 58 119 30 22 166 50 596 228 256 91 192 128 259 273 136 205 601 633 613 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 599 367 621 352 373 279 355 610 270 159 272 123 620 171 141 170 243 588 306 296 178 188 271 600 554 542 632 617 592 147 168 122 189 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 311 157 184 308 229 151 179 254 174 172 98 194 163 158 149 114 111 134 24 197 595 635 622 537 94 196 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 555 213 351 267 597 616 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\zigbee-framework\zigbee-device-common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 639</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 487</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 740</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 254 113 161 193 194 116 31 274 20 163 365 155 555 281 130 21 60 61 228 172 158 128 149 35 371 280 180 190 58 106 181 47 86 97 187 179 174 98 173 91 616 196 297 368 56 265 129 164 140 142 160 117 26 131 79 51 122 229 188 151 620 621 352 275 373 256 279 125 355 610 547 247 159 608 259 267 243 189 369 112 154 119 175 30 124 127 144 22 182 46 257 166 148 107 305 50 77 87 27 245 277 88 138 165 94 615 235 298 599 264 593 207 208 276 604 185 212 258 606 591 284 123 356 354 234 177 612 118 197 213 351 597 592 171 363 270 114 282 111 192 134 272 24 186 595 635 273 622 252</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\cli\zcl-cli.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 227</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 499</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 728</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128 113 50 570 173 58 256 262 180 190 22 363 605 119 30 166 596 228 91 192 371 259 136 302 618 548 116 281 161 31 127 46 107 87 88 264 594 283 268 275 125 547 282 118 597 189 306 250 205 280 273 601 633 613 297 368 56 265 129 154 175 124 144 182 257 148 305 77 27 245 277 138 122 599 367 621 352 373 279 355 610 270 159 272 123 213 351 592 252 554 170 303 248 141 620 296 178 188 271 600 542 632 617 147 168 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 311 157 184 308 229 151 179 254 174 172 98 194 163 158 149 114 111 134 24 197 555 267 616 196 537 165 94 359 602 206 152 183 590 260 109 201 615 235 298 247 593 207 208 276 604 185 212 258 606 591 284 356 354 365 234 177 155 35 612 608 186 595 635 622 171 543</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\util\zigbee-framework\zigbee-device-library.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 624</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 320</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 741</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 590 175 138 212 27 129 257 615 599 189 112 113 144 305 91 602 284 123 196 159 608 243 154 124 182 148 77 245 277 297 173 152 260 201 298 264 268 208 247 597 296 122 369 190 119 30 127 22 46 166 107 50 87 88 165 94 359 206 183 282 109 235 593 604 591 356 365 155 35 259 213 351 592 252 280 290 116 180 281 368 161 31 56 265 58 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 594 311 367 157 596 184 262 308 283 229 188 151 620 228 207 276 185 258 606 621 354 234 177 128 158 612 186 555 267 616 363 179 352 254 275 174 373 172 256 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 595 635 273 622 171</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\time-util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 629</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 328</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 735</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305 613 56 141 265 129 109 297 280 113 144 208 601 368 175 257 27 138 165 359 247 597 189 273 633 136 173 154 124 182 148 77 245 277 183 212 284 123 196 159 608 537 363 262 618 605 548 570 116 180 281 161 190 31 58 119 30 127 22 46 166 107 50 87 88 94 206 282 235 593 604 591 356 91 365 155 35 259 213 351 592 252 205 170 620 296 178 188 271 600 554 542 632 617 147 168 122 369 112 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 602 152 590 260 201 615 298 207 276 185 258 606 621 599 354 234 177 128 158 612 186 555 267 616 302 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 256 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 595 635 622 171 306 543</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\protocol\zigbee_5.10\app\framework\util\util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 727</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 280 258 182 91 297 158 141 613 56 265 154 277 615 171 601 368 113 77 173 590 159 354 128 180 256 230 273 633 136 124 148 245 602 276 591 621 177 186 620 537 618 363 262 605 548 570 116 281 161 190 31 58 129 175 144 257 305 27 138 196 152 260 201 298 247 207 185 606 599 234 612 259 306 170 324 317 589 296 178 188 271 600 554 542 632 617 592 147 168 122 189 369 112 119 30 127 22 46 166 107 50 87 88 165 94 359 206 183 282 109 235 593 208 604 212 284 123 356 365 155 35 608 595 635 622 543 130 164 106 140 274 142 181 160 21 117 47 26 193 131 86 79 60 97 51 61 187 20 264 594 311 367 157 596 184 308 283 229 151 228 268 179 352 254 275 174 373 172 98 279 125 355 194 163 610 149 547 270 114 111 192 134 272 24 118 197 371 555 213 351 267 597 616 252 205 302</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
