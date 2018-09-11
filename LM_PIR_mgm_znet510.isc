@@ -1,5 +1,5 @@
-#ISD App Configuration:3.1
-# ISD version: 4.21.3.201711151932-910
+#ISD App Configuration:
+# Simplicity Studio version: 4.27.2.201805221418-1080
 #  Directory of framework within the stack, which helps in case there are more
 #  frameworks within a stack.
 FrameworkDirectory:protocol\zigbee_5.10\app\framework
@@ -60,25 +60,6 @@ OverrideServer:405,include,humidity
 
 #  Type of the endpoint. Each endpoint implement one endpoint type. There can be
 #  one or more endpoint types, regardless of number of actual endpoints.
-EndpointType:battery,23
-
-#  The ZCL device that this particular endpoint is implementing.
-DeviceType:battery,Lumi Battery
-
-#  Type of the endpoint. Each endpoint implement one endpoint type. There can be
-#  one or more endpoint types, regardless of number of actual endpoints.
-EndpointType:lumi's option,22
-
-#  The ZCL device that this particular endpoint is implementing.
-DeviceType:lumi's option,Lumi Config
-
-#  Overrides a particular server configuration. This happens when you have
-#  chosen to include/exclude a server cluster that is optional. Contains
-#  'clusterId', 'exclude/include' and the endpoint type name.
-OverrideServer:fc11,include,lumi's option
-
-#  Type of the endpoint. Each endpoint implement one endpoint type. There can be
-#  one or more endpoint types, regardless of number of actual endpoints.
 EndpointType:Switch,259
 
 #  The ZCL device that this particular endpoint is implementing.
@@ -114,7 +95,7 @@ Channels:11
 #  Definitions of individual endpoints. For each endpoint the endpoint number
 #  (1-254) is listed, as well as the endpoint type that this endpoint will
 #  serve.
-ConfiguredEndpoints:*1&-1&-1&0&motion&Primary,2&-1&-1&0&light&Primary,3&-1&-1&0&temperature&Primary,4&-1&-1&0&humidity&Primary,5&-1&-1&0&battery&Primary,6&-1&-1&0&Switch&Primary,49&-1&-1&0&lumi's option&Primary
+ConfiguredEndpoints:*1&-1&-1&0&motion&Primary,2&-1&-1&0&light&Primary,3&-1&-1&0&temperature&Primary,4&-1&-1&0&humidity&Primary,6&-1&-1&0&Switch&Primary
 
 #  A single specification version for each profile defining the max version of
 #  the spec supported by this configuration.
@@ -127,7 +108,7 @@ Host:unknown
 Platform:efr32~family[M]~series[1]~device_configuration[1]~performance[P]~radio[132]~flash[256K]~temp[G]~package[M]~pins[48]
 
 #  Enable callbacks.
-Callbacks:emberAfHalButtonIsrCallback,emberAfMainInitCallback,emberAfPreMessageReceivedCallback,emberAfStackStatusCallback,emberIncomingCommandHandler,emberAfLmDevOptServerAttributeChangedCallback,emberAfPluginIdleSleepOkToSleepCallback,emberAfPluginIdleSleepWakeUpCallback,
+Callbacks:emberAfHalButtonIsrCallback,emberAfMainInitCallback,emberAfPreMessageReceivedCallback,emberAfStackStatusCallback,emberIncomingCommandHandler,emberAfPluginIdleSleepOkToSleepCallback,emberAfPluginIdleSleepWakeUpCallback,
 
 #  Any customer-specific general purpose custom events.
 CustomEvents:CalButtonPressTimeEventControl,CalButtonPressTimeEventFunction
@@ -374,11 +355,33 @@ CliCommandSet:Full
 #  These are the various Command Line Interface (CLI) commands that can be
 #  included, or excluded (if they are included by default), in the application.
 #  Plugin configuration
+appPlugin:adc,true
+
 appPlugin:address-table,true
 
 appPlugin:aes-cmac,false
 
+appPlugin:antenna,false
+
+appPlugin:antenna-stub,true
+
 appPlugin:basic,false
+
+appPlugin:battery-monitor,false
+
+appPlugin:battery-monitor-stub,false
+
+appPlugin:binding-table-library,true
+
+appPlugin:bulb-pwm-cli,false
+
+appPlugin:bulb-pwm-driver,false
+
+appPlugin:bulb-ui,false
+
+appPlugin:button-interface,false
+
+appPlugin:button-interface-stub,false
 
 appPlugin:button-joining,false
 
@@ -387,6 +390,22 @@ appPlugin:calendar-client,true
 appPlugin:calendar-common,false
 
 appPlugin:calendar-server,true
+
+appPlugin:cbke-163k1-library,false
+
+appPlugin:cbke-283k1-library,false
+
+appPlugin:cbke-library-core,false
+
+appPlugin:cbke-library-dsa-sign,false
+
+appPlugin:cbke-library-dsa-verify,false
+
+appPlugin:cbke-library-dsa-verify-283k1,false
+
+appPlugin:cjson,false
+
+appPlugin:coexistence,false
 
 appPlugin:color-control,true
 
@@ -398,7 +417,19 @@ appPlugin:comms-hub-function,false
 
 appPlugin:concentrator,false
 
+appPlugin:configuration-server,false
+
+appPlugin:connection-manager,false
+
 appPlugin:counters,true
+
+appPlugin:debug-basic-library,true
+
+appPlugin:debug-extended-library,false
+
+appPlugin:debug-jtag,true
+
+appPlugin:debug-jtag-stub,false
 
 appPlugin:device-database,false
 
@@ -418,9 +449,23 @@ appPlugin:drlc,true
 
 appPlugin:drlc-server,false
 
+appPlugin:ecc-library-163k1,false
+
+appPlugin:ecc-library-283k1,false
+
+appPlugin:eeprom,false
+
+appPlugin:electrical-measurement-server,false
+
+appPlugin:em4,false
+
 appPlugin:ember-minimal-printf,true
 
+appPlugin:end-device-bind-library,false
+
 appPlugin:end-device-support,true
+
+appPlugin:enhanced-beacon-request-library,false
 
 appPlugin:esi-management,true
 
@@ -429,6 +474,8 @@ appPlugin:events-client,false
 appPlugin:events-server,false
 
 appPlugin:ezmode-commissioning,false
+
+appPlugin:fem-control,false
 
 appPlugin:find-and-bind-initiator,false
 
@@ -448,6 +495,18 @@ appPlugin:gbz-message-controller,false
 
 appPlugin:general-response-commands,false
 
+appPlugin:generic-interrupt-control,false
+
+appPlugin:generic-interrupt-control-stub,false
+
+appPlugin:glib,false
+
+appPlugin:gp-library,false
+
+appPlugin:gpio-sensor,false
+
+appPlugin:gpio-sensor-stub,false
+
 appPlugin:green-power-client,true
 
 appPlugin:green-power-common,true
@@ -460,9 +519,21 @@ appPlugin:groups-client,false
 
 appPlugin:groups-server,true
 
+appPlugin:hal-config,true
+
+appPlugin:hal-library,true
+
 appPlugin:hc-11073-tunnel,true
 
 appPlugin:heartbeat,false
+
+appPlugin:humidity-si7021,false
+
+appPlugin:humidity-si7021-stub,false
+
+appPlugin:i2c-driver,false
+
+appPlugin:i2c-driver-stub,false
 
 appPlugin:ias-zone-client,false
 
@@ -472,11 +543,41 @@ appPlugin:identify,false
 
 appPlugin:identify-feedback,false
 
+appPlugin:idle-sleep,true
+
+appPlugin:illuminance-measurement-server,false
+
+appPlugin:illuminance-si1141,false
+
+appPlugin:illuminance-si1141-stub,false
+
+appPlugin:install-code-library,false
+
 appPlugin:interpan,false
 
 appPlugin:key-establishment,true
 
+appPlugin:led-blink,false
+
+appPlugin:led-blink-stub,false
+
+appPlugin:led-dim-pwm,false
+
+appPlugin:led-rgb-pwm,false
+
+appPlugin:led-temp-pwm,false
+
 appPlugin:level-control,true
+
+appPlugin:linked-list,false
+
+appPlugin:low-voltage-shutdown,false
+
+appPlugin:manufacturing-library,false
+
+appPlugin:manufacturing-library-cli,false
+
+appPlugin:manufacturing-library-ota,false
 
 appPlugin:messaging-client,true
 
@@ -490,7 +591,17 @@ appPlugin:meter-snapshot-server,false
 
 appPlugin:meter-snapshot-storage,false
 
+appPlugin:metering-server,false
+
 appPlugin:mn-price-passthrough,false
+
+appPlugin:mpsi,false
+
+appPlugin:mpsi-ipc,false
+
+appPlugin:mpsi-storage,false
+
+appPlugin:multi-network-library,false
 
 appPlugin:network-creator,false
 
@@ -499,6 +610,14 @@ appPlugin:network-creator-security,false
 appPlugin:network-find,true
 
 appPlugin:network-steering,false
+
+appPlugin:occupancy-pyd1698,false
+
+appPlugin:occupancy-pyd1698-cli,false
+
+appPlugin:occupancy-pyd1698-stub,false
+
+appPlugin:occupancy-sensor-server,false
 
 appPlugin:on-off,true
 
@@ -524,6 +643,10 @@ appPlugin:ota-storage-simple-eeprom,false
 
 appPlugin:ota-storage-simple-ram,false
 
+appPlugin:packet-validate-library,true
+
+appPlugin:paho.mqtt.c,false
+
 appPlugin:partner-link-key-exchange,true
 
 appPlugin:permit-join-manager,false
@@ -532,7 +655,13 @@ appPlugin:poll-control-client,true
 
 appPlugin:poll-control-server,true
 
+appPlugin:power-configuration-server,false
+
 appPlugin:power-consumption-model,false
+
+appPlugin:power-meter-cs5463,false
+
+appPlugin:power-meter-cs5463-stub,false
 
 appPlugin:prepayment-client,false
 
@@ -545,6 +674,12 @@ appPlugin:price-client,true
 appPlugin:price-common,false
 
 appPlugin:price-server,true
+
+appPlugin:psstore,false
+
+appPlugin:rail-library,true
+
+appPlugin:relative-humidity-measurement-server,false
 
 appPlugin:reporting,true
 
@@ -562,6 +697,8 @@ appPlugin:rf4ce-mso-ir-rf-database-recipient,false
 
 appPlugin:rf4ce-profile,false
 
+appPlugin:rf4ce-stack-library,false
+
 appPlugin:rf4ce-zrc11,false
 
 appPlugin:rf4ce-zrc20,false
@@ -574,11 +711,31 @@ appPlugin:rf4ce-zrc20-ha-client,false
 
 appPlugin:rf4ce-zrc20-ha-server,false
 
+appPlugin:sb1-gesture-sensor,false
+
+appPlugin:sb1-gesture-sensor-stub,false
+
 appPlugin:scan-dispatch,true
 
 appPlugin:scenes,true
 
 appPlugin:scenes-client,false
+
+appPlugin:security-library-core,true
+
+appPlugin:security-link-keys-library,false
+
+appPlugin:security-sensor,false
+
+appPlugin:silabs-device-ui,false
+
+appPlugin:sim-eeprom1,true
+
+appPlugin:sim-eeprom2,false
+
+appPlugin:sim-eeprom2-1to2-upgrade,false
+
+appPlugin:sim-eeprom2-1to2-upgrade-stub,false
 
 appPlugin:simple-clock,false
 
@@ -589,6 +746,8 @@ appPlugin:simple-metering-client,true
 appPlugin:simple-metering-server,true
 
 appPlugin:sleepy-message-queue,false
+
+appPlugin:slot-manager,false
 
 appPlugin:smart-energy-registration,true
 
@@ -602,11 +761,25 @@ appPlugin:standalone-bootloader-server,false
 
 appPlugin:standard-printf-support,false
 
+appPlugin:tamper-switch,false
+
+appPlugin:tamper-switch-stub,false
+
+appPlugin:temperature-measurement-server,false
+
+appPlugin:temperature-si7021,false
+
+appPlugin:temperature-si7053,false
+
+appPlugin:temperature-si7053-stub,false
+
 appPlugin:test-harness,false
 
 appPlugin:test-harness-z3,false
 
 appPlugin:time-server,true
+
+appPlugin:transport-mqtt,false
 
 appPlugin:trust-center-backup,false
 
@@ -624,13 +797,21 @@ appPlugin:tunneling-server,true
 
 appPlugin:update-tc-link-key,false
 
+appPlugin:wstk-display,false
+
 appPlugin:xmodem-sender,false
+
+appPlugin:zigbee-pro-leaf-library,false
+
+appPlugin:zigbee-pro-library,true
 
 appPlugin:zll-commissioning,true
 
 appPlugin:zll-identify-server,true
 
 appPlugin:zll-level-control-server,true
+
+appPlugin:zll-library,false
 
 appPlugin:zll-on-off-server,true
 
@@ -642,210 +823,6 @@ appPlugin:zll-utility-client,false
 
 appPlugin:zll-utility-server,true
 
-appPlugin:bulb-pwm-cli,false
-
-appPlugin:bulb-ui,false
-
-appPlugin:configuration-server,false
-
-appPlugin:connection-manager,false
-
-appPlugin:electrical-measurement-server,false
-
-appPlugin:em4,false
-
-appPlugin:idle-sleep,true
-
-appPlugin:illuminance-measurement-server,false
-
-appPlugin:led-dim-pwm,false
-
-appPlugin:led-rgb-pwm,false
-
-appPlugin:led-temp-pwm,false
-
-appPlugin:low-voltage-shutdown,false
-
-appPlugin:manufacturing-library-cli,false
-
-appPlugin:manufacturing-library-ota,false
-
-appPlugin:metering-server,false
-
-appPlugin:occupancy-pyd1698-cli,false
-
-appPlugin:occupancy-sensor-server,false
-
-appPlugin:power-configuration-server,false
-
-appPlugin:relative-humidity-measurement-server,false
-
-appPlugin:security-sensor,false
-
-appPlugin:silabs-device-ui,false
-
-appPlugin:temperature-measurement-server,false
-
-appPlugin:binding-table-library,true
-
-appPlugin:cbke-163k1-library,false
-
-appPlugin:cbke-283k1-library,false
-
-appPlugin:cbke-library-core,false
-
-appPlugin:cbke-library-dsa-sign,false
-
-appPlugin:cbke-library-dsa-verify,false
-
-appPlugin:cbke-library-dsa-verify-283k1,false
-
-appPlugin:debug-basic-library,true
-
-appPlugin:debug-extended-library,false
-
-appPlugin:ecc-library-163k1,false
-
-appPlugin:ecc-library-283k1,false
-
-appPlugin:end-device-bind-library,false
-
-appPlugin:enhanced-beacon-request-library,false
-
-appPlugin:gp-library,false
-
-appPlugin:install-code-library,false
-
-appPlugin:manufacturing-library,false
-
-appPlugin:multi-network-library,false
-
-appPlugin:packet-validate-library,true
-
-appPlugin:rf4ce-stack-library,false
-
-appPlugin:security-library-core,true
-
-appPlugin:security-link-keys-library,false
-
-appPlugin:zigbee-pro-leaf-library,false
-
-appPlugin:zigbee-pro-library,true
-
-appPlugin:zll-library,false
-
-appPlugin:debug-jtag,true
-
-appPlugin:debug-jtag-stub,false
-
-appPlugin:hal-config,true
-
-appPlugin:hal-library,true
-
-appPlugin:humidity-si7021,false
-
-appPlugin:i2c-driver,false
-
-appPlugin:illuminance-si1141,false
-
-appPlugin:psstore,false
-
-appPlugin:sim-eeprom1,true
-
-appPlugin:sim-eeprom2,false
-
-appPlugin:sim-eeprom2-1to2-upgrade,false
-
-appPlugin:sim-eeprom2-1to2-upgrade-stub,false
-
-appPlugin:temperature-si7021,false
-
-appPlugin:temperature-si7053,false
-
-appPlugin:wstk-display,false
-
-appPlugin:adc,true
-
-appPlugin:antenna,false
-
-appPlugin:antenna-stub,true
-
-appPlugin:coexistence,false
-
-appPlugin:fem-control,false
-
-appPlugin:glib,false
-
-appPlugin:humidity-si7021-stub,false
-
-appPlugin:i2c-driver-stub,false
-
-appPlugin:illuminance-si1141-stub,false
-
-appPlugin:temperature-si7053-stub,false
-
-appPlugin:rail-library,true
-
-appPlugin:mpsi,false
-
-appPlugin:battery-monitor,false
-
-appPlugin:battery-monitor-stub,false
-
-appPlugin:bulb-pwm-driver,false
-
-appPlugin:button-interface,false
-
-appPlugin:button-interface-stub,false
-
-appPlugin:eeprom,false
-
-appPlugin:generic-interrupt-control,false
-
-appPlugin:generic-interrupt-control-stub,false
-
-appPlugin:gpio-sensor,false
-
-appPlugin:gpio-sensor-stub,false
-
-appPlugin:led-blink,false
-
-appPlugin:led-blink-stub,false
-
-appPlugin:occupancy-pyd1698,false
-
-appPlugin:occupancy-pyd1698-stub,false
-
-appPlugin:power-meter-cs5463,false
-
-appPlugin:power-meter-cs5463-stub,false
-
-appPlugin:sb1-gesture-sensor,false
-
-appPlugin:sb1-gesture-sensor-stub,false
-
-appPlugin:tamper-switch,false
-
-appPlugin:tamper-switch-stub,false
-
-appPlugin:linked-list,false
-
-appPlugin:mpsi-ipc,false
-
-appPlugin:mpsi-storage,false
-
-appPlugin:transport-mqtt,false
-
-appPlugin:slot-manager,false
-
-appPlugin:cjson,false
-
-appPlugin:paho.mqtt.c,false
-
-appPlugin:cjson,false
-
-appPlugin:paho.mqtt.c,false
-
 #  Plugin specific options
 AppPluginOption(efr32~family[M]~series[1]~device_configuration[1]~performance[P]~radio[132]~flash[256K]~temp[G]~package[M]~pins[48]):EMBER_AF_PLUGIN_REPORTING_TABLE_SIZE,10
 
@@ -853,5 +830,11 @@ AppPluginOption(efr32~family[M]~series[1]~device_configuration[1]~performance[P]
 
 AppPluginOption(efr32~family[M]~series[1]~device_configuration[1]~performance[P]~radio[132]~flash[256K]~temp[G]~package[M]~pins[48]):EMBER_BINDING_TABLE_SIZE,12
 
-AppPluginOption(efr32~family[M]~series[1]~device_configuration[1]~performance[P]~radio[132]~flash[256K]~temp[G]~package[M]~pins[48]):EMBER_AF_PLUGIN_END_DEVICE_SUPPORT_WAKE_TIMEOUT_SECONDS,2
+AppPluginOption(efr32~family[M]~series[1]~device_configuration[1]~performance[P]~radio[132]~flash[256K]~temp[G]~package[M]~pins[48]):EMBER_AF_PLUGIN_END_DEVICE_SUPPORT_ENHANCED_SLEEP_SUPPORT,false
+
+AppPluginOption(efr32~family[M]~series[1]~device_configuration[1]~performance[P]~radio[132]~flash[256K]~temp[G]~package[M]~pins[48]):EMBER_AF_REJOIN_ATTEMPTS_MAX,255
+
+AppPluginOption(efr32~family[M]~series[1]~device_configuration[1]~performance[P]~radio[132]~flash[256K]~temp[G]~package[M]~pins[48]):EMBER_AF_PLUGIN_END_DEVICE_SUPPORT_MAX_MISSED_POLLS,100
+
+AppPluginOption(efr32~family[M]~series[1]~device_configuration[1]~performance[P]~radio[132]~flash[256K]~temp[G]~package[M]~pins[48]):EMBER_AF_PLUGIN_END_DEVICE_SUPPORT_WAKE_TIMEOUT_SECONDS,3
 
